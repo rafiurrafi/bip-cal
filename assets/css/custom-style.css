@@ -1,0 +1,15 @@
+.mini_cell_value--green {
+  color: #03b034;
+  font-weight: 600;
+}
+.mini_cell_value--red {
+  color: #e41f1f;
+  font-weight: 600;
+}
+.table_container {
+  max-width: 100%;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
