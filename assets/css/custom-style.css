@@ -9,39 +9,44 @@
 .table_container {
   max-width: 100%;
 }
-table {
-  table-layout: fixed;
-  width: 100%;
-  white-space: nowrap;
+/* table {
+}
+th,
+td {
+  word-wrap: break-word;
 }
 
-/* th:nth-child(5),
-th:nth-child(3),
-th:nth-child(4) {
-  width: 110px;
-  word-wrap: break-word;
-} */
-th {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 th:nth-child(1) {
   width: 20%;
+  background-color: #03b034;
 }
+
 th:nth-child(2) {
   width: 5%;
+  background-color: #e41f1f;
 }
 th:nth-child(3) {
   width: 15%;
+  background-color: blue;
 }
 th:nth-child(4) {
   width: 22%;
+  background-color: yellow;
 }
 th:nth-child(5) {
   width: 22%;
+  background-color: palevioletred;
 }
 
 th:nth-child(6) {
   width: 15%;
+  background-color: orchid;
+} */
+.calculator_main_container .table_container table {
+  table-layout: fixed;
+}
+.calculator_main_container .table_container th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
