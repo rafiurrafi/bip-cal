@@ -12,4 +12,36 @@
 table {
   table-layout: fixed;
   width: 100%;
+  white-space: nowrap;
+}
+
+/* th:nth-child(5),
+th:nth-child(3),
+th:nth-child(4) {
+  width: 110px;
+  word-wrap: break-word;
+} */
+th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+th:nth-child(1) {
+  width: 20%;
+}
+th:nth-child(2) {
+  width: 5%;
+}
+th:nth-child(3) {
+  width: 15%;
+}
+th:nth-child(4) {
+  width: 22%;
+}
+th:nth-child(5) {
+  width: 22%;
+}
+
+th:nth-child(6) {
+  width: 15%;
 }
