@@ -45,7 +45,7 @@ th:nth-child(6) {
 .calculator_main_container .table_container table {
   table-layout: fixed;
 }
-.calculator_main_container .table_container th {
+.calculator_main_container .table_container th:not(:nth-child(2)) {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
