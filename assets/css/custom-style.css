@@ -50,3 +50,6 @@ th:nth-child(6) {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+th:nth-child(2) {
+  margin-left: -2.5rem;
+}
