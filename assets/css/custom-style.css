@@ -1,55 +1,19 @@
 .mini_cell_value--green {
   color: #03b034;
-  font-weight: 600;
 }
 .mini_cell_value--red {
   color: #e41f1f;
-  font-weight: 600;
 }
 .table_container {
   max-width: 100%;
 }
-/* table {
+.table_container thead {
+  vertical-align: top;
 }
-th,
-td {
-  word-wrap: break-word;
-}
-
-th:nth-child(1) {
-  width: 20%;
-  background-color: #03b034;
+.calculator_main_container .table_container .profit_ratio_cell {
+  align-items: flex-start;
 }
 
-th:nth-child(2) {
-  width: 5%;
-  background-color: #e41f1f;
-}
-th:nth-child(3) {
-  width: 15%;
-  background-color: blue;
-}
-th:nth-child(4) {
-  width: 22%;
-  background-color: yellow;
-}
-th:nth-child(5) {
-  width: 22%;
-  background-color: palevioletred;
-}
-
-th:nth-child(6) {
-  width: 15%;
-  background-color: orchid;
-} */
 .calculator_main_container .table_container table {
   table-layout: fixed;
-}
-.calculator_main_container .table_container th:not(:nth-child(2)) {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-th:nth-child(2) {
-  margin-left: -2.5rem;
 }
