@@ -17,3 +17,6 @@
 .calculator_main_container .table_container table {
   table-layout: fixed;
 }
+tbody tr td .cell_w_img .cell_img_container img {
+  min-width: 1.7rem;
+}
