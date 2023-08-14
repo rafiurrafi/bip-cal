@@ -1,0 +1,18 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.header-top {
+  a {
+    border-bottom: 1px solid white;
+  }
+}
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Optional: adjust the dropdown position as needed */
+}
+
+/* Hide dropdown when not hovering */
+.dropdown:not(:hover) .dropdown-menu {
+  display: none;
+}
