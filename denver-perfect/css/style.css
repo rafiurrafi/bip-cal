@@ -1,15 +1,77 @@
 body {
   font-family: "Open Sans", sans-serif; }
 
+.fw-semi-bold {
+  font-weight: 600 !important; }
+
+.color-yellow {
+  color: #cea55d; }
+
+.color-green-1 {
+  color: #004037; }
+
+.bg-sky {
+  background-color: #dce3f0; }
+
 .header-top a {
   border-bottom: 1px solid white; }
+.header .nav-link {
+  text-transform: uppercase;
+  font-weight: 700; }
 
-/* Show dropdown on hover */
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-  /* Optional: adjust the dropdown position as needed */ }
+.navbar-brand img {
+  height: 3.75rem; }
 
-/* Hide dropdown when not hovering */
-.dropdown:not(:hover) .dropdown-menu {
-  display: none; }
+.section-hero {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative; }
+  .section-hero .hero-text {
+    width: 36rem;
+    height: inherit; }
+    .section-hero .hero-text span:last-child {
+      color: #5175b3; }
+  .section-hero .hero-para {
+    color: #001944; }
+
+.section-contact-text {
+  width: 90%; }
+
+.contact-media a {
+  height: 1.5rem;
+  width: 1.5rem; }
+  .contact-media a:not(:last-child) {
+    margin-right: 1rem; }
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none; }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block; }
+
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0; } }
+.section-numbers {
+  background-image: linear-gradient(rgba(14, 54, 117, 0.8), rgba(14, 54, 117, 0.8)), url(../img/feature-bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 60vh; }
+
+.section-color {
+  height: 40vh;
+  position: relative;
+  z-index: -1; }
+
+.section-prospects {
+  padding: 0 3vw; }
+  .section-prospects img {
+    width: 100%;
+    object-fit: cover; }
+  .section-prospects .prospects {
+    background-color: #004037; }
+
+.footer {
+  margin-left: 1vw; }
