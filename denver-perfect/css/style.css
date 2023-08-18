@@ -40,6 +40,9 @@ body {
 .small-1 {
   font-size: 0.75rem; }
 
+.mb-4-extra {
+  margin-bottom: 2rem; }
+
 .header-top a {
   border-bottom: 1px solid white; }
 .header .nav-link {
@@ -50,19 +53,29 @@ body {
   height: 3.75rem; }
 
 .section-hero {
-  background-image: url(../img/hero.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
+  .section-hero-bg {
+    width: 100%; }
+    .section-hero-bg img {
+      width: 100%;
+      height: 790px;
+      object-fit: cover; }
   .section-hero .hero-text {
-    width: 36rem; }
+    position: absolute;
+    top: 0%;
+    right: 2.5%;
+    width: 36rem;
+    height: 100%;
+    padding: 3rem 5.5rem;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5); }
     .section-hero .hero-text span:last-child {
       color: #5175b3; }
   .section-hero .hero-para {
     color: #001944; }
 
-.section-contact-text {
-  width: 90%; }
 .section-contact .contact-form label {
   font-size: 1rem;
   font-weight: 700;
@@ -71,11 +84,13 @@ body {
   .section-contact .contact-form label span {
     color: red; }
 
-.contact-media a {
-  height: 1.5rem;
-  width: 1.5rem; }
-  .contact-media a:not(:last-child) {
-    margin-right: 0.7rem; }
+.contact-media a,
+.contact-media a i {
+  height: 2rem;
+  width: 2rem; }
+  .contact-media a:not(:last-child),
+  .contact-media a i:not(:last-child) {
+    margin-right: 0.5rem; }
 
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
@@ -87,28 +102,38 @@ body {
   .navbar .nav-item .dropdown-menu {
     margin-top: 0; } }
 .section-numbers {
-  background-image: linear-gradient(rgba(14, 54, 117, 0.8), rgba(14, 54, 117, 0.8)), url(../img/feature-bg.png);
+  position: relative;
+  background-image: linear-gradient(rgba(14, 54, 117, 0.9), rgba(14, 54, 117, 0.9)), url(../img/feature-bg.png);
   background-position: center;
   background-size: cover; }
-
-.section-color {
-  position: relative;
-  z-index: -1; }
+  .section-numbers .numbers-content {
+    position: relative;
+    z-index: 2; }
+  .section-numbers .number-color {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: -130px; }
 
 .section-security {
+  margin-top: 60px;
   position: relative; }
+  .section-security .col-md-7 {
+    z-index: 2; }
   .section-security-img {
+    height: 110%;
     width: 45%;
     background-color: red;
     background-image: url(../img/security.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: -1.25rem;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     top: 0;
     left: 0; }
   .section-security .btn {
-    border-top: 2px solid #cea55d; }
+    border-top: 4px solid #cea55d; }
 
 .section-prospects {
   padding: 0 3vw; }
@@ -129,7 +154,7 @@ body {
     font-size: 2rem; }
 
   .h2 {
-    font-size: 1.6rem; }
+    font-size: 1.6rem !important; }
 
   .h3 {
     font-size: 1rem; }
@@ -137,8 +162,22 @@ body {
   .h4 {
     font-size: 1rem; }
 
-  .section-hero .hero-text {
-    width: 100% !important; }
+  .section-hero {
+    overflow: initial; }
+    .section-hero img {
+      height: 100vh; }
+    .section-hero .hero-text {
+      width: 90% !important;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 3rem 5.5rem;
+      height: max-content; }
+
+  .section-contact {
+    margin-top: 40%; }
 
   .section-prospects img {
     height: 22rem; }
@@ -146,15 +185,26 @@ body {
   .footer img {
     width: 100%; } }
 @media (max-width: 768px) {
+  .section-contact {
+    margin-top: 120%; }
+
   .section-security-img {
     display: none; } }
 @media (max-width: 576px) {
-  .section-hero {
-    height: 115vh; }
-    .section-hero .container,
-    .section-hero .hero-text {
-      opacity: 0.96;
-      height: 100%; }
+  .section-hero .h1 {
+    font-size: 1.5rem; }
+  .section-hero .hero-text {
+    opacity: 0.96;
+    padding: 2rem 1.5rem; }
+
+  .section-contact {
+    margin-top: 120%; }
+
+  .numbers-content {
+    width: 90%;
+    margin-left: 5%; }
 
   .section-security button {
     width: 100% !important; } }
+.navbar {
+  border-bottom: 1px solid red; }

@@ -43,6 +43,9 @@ $color-green-1: #004037;
 .small-1 {
   font-size: 0.75rem;
 }
+.mb-4-extra {
+  margin-bottom: 2rem;
+}
 .header {
   &-top {
     a {
@@ -61,17 +64,27 @@ $color-green-1: #004037;
 }
 // section hero
 .section-hero {
-  background-image: url(../img/hero.jpg);
-  background-size: cover;
-  background-position: center;
-  // height: 105vh;
   position: relative;
-  .container {
-    // height: inherit;
+  overflow: hidden;
+  &-bg {
+    width: 100%;
+    img {
+      width: 100%;
+      height: 790px;
+      object-fit: cover;
+    }
   }
   .hero-text {
+    position: absolute;
+    top: 0%;
+    right: 2.5%;
     width: 36rem;
-    // height: inherit;
+    height: 100%;
+    padding: 3rem 5.5rem;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+
     span:last-child {
       color: #5175b3;
     }
@@ -82,9 +95,6 @@ $color-green-1: #004037;
 }
 // section -contact
 .section-contact {
-  &-text {
-    width: 90%;
-  }
   .contact-form {
     label {
       font-size: 1rem;
@@ -98,11 +108,12 @@ $color-green-1: #004037;
   }
 }
 .contact-media {
-  a {
-    height: 1.5rem;
-    width: 1.5rem;
+  a,
+  a i {
+    height: 2rem;
+    width: 2rem;
     &:not(:last-child) {
-      margin-right: 0.7rem;
+      margin-right: 0.5rem;
     }
   }
 }
@@ -119,33 +130,42 @@ $color-green-1: #004037;
 }
 // Section number
 .section-numbers {
+  position: relative;
   background-image: linear-gradient(
-      rgba(14, 54, 117, 0.8),
-      rgba(14, 54, 117, 0.8)
+      rgba(14, 54, 117, 0.9),
+      rgba(14, 54, 117, 0.9)
     ),
     url(../img/feature-bg.png);
   background-position: center;
   background-size: cover;
-}
-.section-color {
-  // height: 40vh;
-  position: relative;
-  z-index: -1;
+  .numbers-content {
+    position: relative;
+    z-index: 2;
+  }
+  .number-color {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: -130px;
+  }
 }
 // section-security
 .section-security {
-  // height: 55vh;
+  margin-top: 60px;
   position: relative;
+  .col-md-7 {
+    z-index: 2;
+  }
   &-img {
-    // height: 55vh;
+    height: 110%;
     width: 45%;
     background-color: red;
     background-image: url(../img/security.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    // clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 0% 100%);
+    margin-left: -1.25rem;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     top: 0;
     left: 0;
   }
@@ -153,7 +173,7 @@ $color-green-1: #004037;
     // height: 55vh;
   }
   .btn {
-    border-top: 2px solid $color-yellow;
+    border-top: 4px solid $color-yellow;
   }
 }
 // section prospects
@@ -187,7 +207,7 @@ $color-green-1: #004037;
     font-size: 2rem;
   }
   .h2 {
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
   }
   .h3 {
     font-size: 1rem;
@@ -196,9 +216,24 @@ $color-green-1: #004037;
     font-size: 1rem;
   }
   .section-hero {
-    .hero-text {
-      width: 100% !important;
+    overflow: initial;
+    img {
+      height: 100vh;
     }
+    .hero-text {
+      width: 90% !important;
+      top: 50%;
+      left: 0;
+      right: 0;
+
+      margin-left: auto;
+      margin-right: auto;
+      padding: 3rem 5.5rem;
+      height: max-content;
+    }
+  }
+  .section-contact {
+    margin-top: 40%;
   }
   .section-prospects {
     img {
@@ -215,6 +250,9 @@ $color-green-1: #004037;
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
+  .section-contact {
+    margin-top: 120%;
+  }
   .section-security {
     &-img {
       display: none;
@@ -225,16 +263,27 @@ $color-green-1: #004037;
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
   .section-hero {
-    height: 115vh;
-    .container,
+    .h1 {
+      font-size: 1.5rem;
+    }
     .hero-text {
       opacity: 0.96;
-      height: 100%;
+      padding: 2rem 1.5rem;
     }
+  }
+  .section-contact {
+    margin-top: 120%;
+  }
+  .numbers-content {
+    width: 90%;
+    margin-left: 5%;
   }
   .section-security {
     button {
       width: 100% !important;
     }
   }
+}
+.navbar {
+  border-bottom: 1px solid red;
 }
