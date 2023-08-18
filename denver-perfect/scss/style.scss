@@ -135,10 +135,10 @@ $color-green-1: #004037;
 }
 // section-security
 .section-security {
-  height: 55vh;
+  // height: 55vh;
   position: relative;
   &-img {
-    height: 55vh;
+    // height: 55vh;
     width: 45%;
     background-color: red;
     background-image: url(../img/security.jpg);
@@ -151,7 +151,7 @@ $color-green-1: #004037;
     left: 0;
   }
   .bg-blue-lightest {
-    height: 55vh;
+    // height: 55vh;
   }
   .btn {
     border-top: 2px solid $color-yellow;

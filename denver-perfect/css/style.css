@@ -100,10 +100,8 @@ body {
   z-index: -1; }
 
 .section-security {
-  height: 55vh;
   position: relative; }
   .section-security-img {
-    height: 55vh;
     width: 45%;
     background-color: red;
     background-image: url(../img/security.jpg);
@@ -113,8 +111,6 @@ body {
     z-index: -1;
     top: 0;
     left: 0; }
-  .section-security .bg-blue-lightest {
-    height: 55vh; }
   .section-security .btn {
     border-top: 2px solid #cea55d; }
 
