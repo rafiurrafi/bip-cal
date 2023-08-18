@@ -126,7 +126,6 @@ $color-green-1: #004037;
     url(../img/feature-bg.png);
   background-position: center;
   background-size: cover;
-  // height: 80vh;
 }
 .section-color {
   // height: 40vh;
@@ -161,6 +160,7 @@ $color-green-1: #004037;
 .section-prospects {
   padding: 0 3vw;
   img {
+    height: 25rem;
     width: 100%;
     object-fit: cover;
   }
@@ -200,8 +200,10 @@ $color-green-1: #004037;
       width: 100% !important;
     }
   }
-  .section-numbers {
-    // height: 120vh;
+  .section-prospects {
+    img {
+      height: 22rem;
+    }
   }
 
   .footer {
@@ -213,6 +215,11 @@ $color-green-1: #004037;
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
+  .section-security {
+    &-img {
+      display: none;
+    }
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -223,6 +230,11 @@ $color-green-1: #004037;
     .hero-text {
       opacity: 0.96;
       height: 100%;
+    }
+  }
+  .section-security {
+    button {
+      width: 100% !important;
     }
   }
 }

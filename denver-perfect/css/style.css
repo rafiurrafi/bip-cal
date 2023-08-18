@@ -113,6 +113,7 @@ body {
 .section-prospects {
   padding: 0 3vw; }
   .section-prospects img {
+    height: 25rem;
     width: 100%;
     object-fit: cover; }
   .section-prospects .prospects {
@@ -139,12 +140,21 @@ body {
   .section-hero .hero-text {
     width: 100% !important; }
 
+  .section-prospects img {
+    height: 22rem; }
+
   .footer img {
     width: 100%; } }
+@media (max-width: 768px) {
+  .section-security-img {
+    display: none; } }
 @media (max-width: 576px) {
   .section-hero {
     height: 115vh; }
     .section-hero .container,
     .section-hero .hero-text {
       opacity: 0.96;
-      height: 100%; } }
+      height: 100%; }
+
+  .section-security button {
+    width: 100% !important; } }

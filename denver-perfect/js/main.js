@@ -14,17 +14,19 @@ const sectionHero = document.querySelector(".section-hero");
 let numberContentHeight = numberContent.clientHeight;
 
 if (window.innerWidth > 768) {
-  sectionNumber.style.height = numberContentHeight * 0.9 + "px";
+  sectionNumber.style.height = numberContentHeight + "px";
   sectionColor.style.height = numberContentHeight * 0.5 + "px";
 } else {
-  sectionNumber.style.height = numberContentHeight * 0.8 + "px";
+  sectionNumber.style.height = numberContentHeight * 0.9 + "px";
   sectionColor.style.height = numberContentHeight * 0.4 + "px";
 }
 
 //change height of security section
 let blueBgHeight = blueBg.clientHeight;
-sectionSecurity.style.height = blueBgHeight + "px";
-sectionSecurityImg.style.height = blueBgHeight + "px";
+// let blugBgWidth = blueBg.clientWidth;
+sectionSecurity.style.height = blueBgHeight * 1.07 + "px";
+sectionSecurityImg.style.height = blueBgHeight * 1.07 + "px";
+// sectionSecurityImg.style.width = blugBgWidth + "px";
 
 //section hero
 let heroTextHeight = heroContent.clientHeight;
