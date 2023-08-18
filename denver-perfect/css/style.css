@@ -182,18 +182,12 @@ body {
       padding: 3rem 5.5rem;
       height: max-content; }
 
-  .section-contact {
-    margin-top: 40%; }
-
   .section-prospects img {
     height: 22rem; }
 
   .footer img {
     width: 100%; } }
 @media (max-width: 768px) {
-  .section-contact {
-    margin-top: 120%; }
-
   .section-security-img {
     display: none; } }
 @media (max-width: 576px) {
@@ -202,9 +196,6 @@ body {
   .section-hero .hero-text {
     opacity: 0.96;
     padding: 2rem 1.5rem; }
-
-  .section-contact {
-    margin-top: 120%; }
 
   .numbers-content {
     width: 90%;

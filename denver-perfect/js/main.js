@@ -6,6 +6,17 @@
 // const blueBg = document.querySelector(".bg-blue-lightest");
 // const sectionSecurityImg = document.querySelector(".section-security-img");
 
+const heroContent = document.querySelector(".hero-text");
+const sectionContact = document.querySelector(".section-contact");
+
+const windowWidth = window.innerWidth;
+console.log(windowWidth);
+
+if (windowWidth < 1217) {
+  const heroContentHeight = heroContent.clientHeight;
+  sectionContact.style.marginTop = heroContentHeight * 0.8 + "px";
+}
+
 //change size of section number grid
 // let numberContentHeight = numberContent.clientHeight;
 

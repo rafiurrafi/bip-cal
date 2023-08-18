@@ -238,9 +238,7 @@ $color-green-1: #004037;
       height: max-content;
     }
   }
-  .section-contact {
-    margin-top: 40%;
-  }
+
   .section-prospects {
     img {
       height: 22rem;
@@ -256,9 +254,6 @@ $color-green-1: #004037;
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
-  .section-contact {
-    margin-top: 120%;
-  }
   .section-security {
     &-img {
       display: none;
@@ -277,9 +272,7 @@ $color-green-1: #004037;
       padding: 2rem 1.5rem;
     }
   }
-  .section-contact {
-    margin-top: 120%;
-  }
+
   .numbers-content {
     width: 90%;
     margin-left: 5%;
