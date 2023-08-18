@@ -53,13 +53,9 @@ body {
   background-image: url(../img/hero.jpg);
   background-size: cover;
   background-position: center;
-  height: 105vh;
   position: relative; }
-  .section-hero .container {
-    height: inherit; }
   .section-hero .hero-text {
-    width: 36rem;
-    height: inherit; }
+    width: 36rem; }
     .section-hero .hero-text span:last-child {
       color: #5175b3; }
   .section-hero .hero-para {
@@ -142,9 +138,6 @@ body {
 
   .section-hero .hero-text {
     width: 100% !important; }
-
-  .section-numbers {
-    height: 120vh; }
 
   .footer img {
     width: 100%; } }

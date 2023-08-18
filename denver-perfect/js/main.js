@@ -6,6 +6,11 @@ const sectionSecurity = document.querySelector(".section-security");
 const blueBg = document.querySelector(".bg-blue-lightest");
 const sectionSecurityImg = document.querySelector(".section-security-img");
 
+const heroContent = document.querySelector(".hero-text");
+const heroContentContainer = document.querySelector(".section-hero .container");
+const sectionHero = document.querySelector(".section-hero");
+
+//change size of section number grid
 let numberContentHeight = numberContent.clientHeight;
 
 if (window.innerWidth > 768) {
@@ -16,11 +21,12 @@ if (window.innerWidth > 768) {
   sectionColor.style.height = numberContentHeight * 0.4 + "px";
 }
 
+//change height of security section
 let blueBgHeight = blueBg.clientHeight;
 sectionSecurity.style.height = blueBgHeight + "px";
 sectionSecurityImg.style.height = blueBgHeight + "px";
 
-console.log(blueBgHeight);
-
-//init wow js
-//
+//section hero
+let heroTextHeight = heroContent.clientHeight;
+heroContentContainer.style.height = heroTextHeight + "px";
+sectionHero.style.height = heroTextHeight + "px";

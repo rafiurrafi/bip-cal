@@ -64,14 +64,14 @@ $color-green-1: #004037;
   background-image: url(../img/hero.jpg);
   background-size: cover;
   background-position: center;
-  height: 105vh;
+  // height: 105vh;
   position: relative;
   .container {
-    height: inherit;
+    // height: inherit;
   }
   .hero-text {
     width: 36rem;
-    height: inherit;
+    // height: inherit;
     span:last-child {
       color: #5175b3;
     }
@@ -201,7 +201,7 @@ $color-green-1: #004037;
     }
   }
   .section-numbers {
-    height: 120vh;
+    // height: 120vh;
   }
 
   .footer {
