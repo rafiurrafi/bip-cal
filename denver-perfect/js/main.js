@@ -6,10 +6,6 @@
 // const blueBg = document.querySelector(".bg-blue-lightest");
 // const sectionSecurityImg = document.querySelector(".section-security-img");
 
-// const heroContent = document.querySelector(".hero-text");
-// const heroContentContainer = document.querySelector(".section-hero .container");
-// const sectionHero = document.querySelector(".section-hero");
-
 //change size of section number grid
 // let numberContentHeight = numberContent.clientHeight;
 

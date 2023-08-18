@@ -43,6 +43,10 @@ body {
 .mb-4-extra {
   margin-bottom: 2rem; }
 
+.py-4-extra {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem; }
+
 .header-top a {
   border-bottom: 1px solid white; }
 .header .nav-link {
@@ -117,17 +121,17 @@ body {
 
 .section-security {
   margin-top: 60px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 8rem; }
   .section-security .col-md-7 {
     z-index: 2; }
   .section-security-img {
     height: 110%;
-    width: 45%;
+    width: 50%;
     background-color: red;
     background-image: url(../img/security.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: -1.25rem;
     position: absolute;
     z-index: 1;
     top: 0;
@@ -136,7 +140,8 @@ body {
     border-top: 4px solid #cea55d; }
 
 .section-prospects {
-  padding: 0 3vw; }
+  padding: 0 3vw;
+  margin-bottom: 8rem; }
   .section-prospects img {
     height: 25rem;
     width: 100%;
@@ -147,7 +152,8 @@ body {
 .footer {
   margin-left: 1vw; }
   .footer img {
-    width: 90%; }
+    width: 90%;
+    transform: translateY(-2.5rem); }
 
 @media (max-width: 992px) {
   .h1 {

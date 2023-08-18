@@ -46,6 +46,10 @@ $color-green-1: #004037;
 .mb-4-extra {
   margin-bottom: 2rem;
 }
+.py-4-extra {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .header {
   &-top {
     a {
@@ -153,17 +157,17 @@ $color-green-1: #004037;
 .section-security {
   margin-top: 60px;
   position: relative;
+  margin-bottom: 8rem;
   .col-md-7 {
     z-index: 2;
   }
   &-img {
     height: 110%;
-    width: 45%;
+    width: 50%;
     background-color: red;
     background-image: url(../img/security.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: -1.25rem;
     position: absolute;
     z-index: 1;
     top: 0;
@@ -179,6 +183,7 @@ $color-green-1: #004037;
 // section prospects
 .section-prospects {
   padding: 0 3vw;
+  margin-bottom: 8rem;
   img {
     height: 25rem;
     width: 100%;
@@ -192,6 +197,7 @@ $color-green-1: #004037;
   margin-left: 1vw;
   img {
     width: 90%;
+    transform: translateY(-2.5rem);
   }
 }
 // XX-Large devices (larger desktops, 1400px and up)
