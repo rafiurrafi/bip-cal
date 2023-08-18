@@ -11,16 +11,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Denver Special</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header wow animate__animated animate__fadeIn">
       <div class="header-top bg-primary p-1">
         <div class="container">
-          <div class="d-flex justify-content-between align-items-center">
-            <a href="#" class="text-white text-uppercase text-decoration-none"
+          <div class="d-md-flex justify-content-between align-items-center ">
+            <a href="#" class="text-white text-uppercase text-decoration-none d-inline-block mb-2 mb-md-0"
               >Official city of denver's page</a
             >
             <div class="d-flex">
@@ -39,7 +43,7 @@
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="img/logo.png" alt="" />
@@ -116,16 +120,16 @@
       </nav>
     </header>
     <!-- hero section start -->
-    <section class="section-hero">
+    <section class="section-hero  wow animate__animated animate__fadeIn">
       <div class="container">
-        <div class="hero-text bg-white p-5 ms-auto">
-          <h1 class="mb-5">
+        <div class="hero-text bg-white p-3 p-lg-5 ms-auto">
+          <h1 class="mb-3 mb-lg-5">
             <span class="color-primary d-block fw-bold">District 10</span
             ><span class="d-block color-primary-light fw-bold">
               Business Resources</span
             >
           </h1>
-          <div class="hero-para fst-italic small">
+          <div class="hero-para fw-semi-bold fst-italic small">
             <p>
               There are more than 70,000 people who live within the District 10
               boundaries. Did you know that there are more than 6,000 businesses
@@ -161,10 +165,10 @@
     </section>
     <!-- hero section end -->
     <!-- section contact  -->
-    <section class="section-contact py-5">
+    <section class="section-contact py-5 my-5 ">
       <div class="container">
-        <div class="row">
-          <div class="col-md-7">
+        <div class="row gy-5">
+          <div class="col-md-6 col-lg-7  wow animate__animated animate__slideInLeft">
             <div class="section-contact-text">
               <h2>
                 <span class="d-block fw-bold" style="color: #004037"
@@ -173,7 +177,7 @@
                   >City Council Representative?</span
                 >
               </h2>
-              <p class="fw-semi-bold small">
+              <p class="fw-semi-bold small-1">
                 If you are not a resident of Denver’s Perfect 10, you do not
                 vote for the District 10 City council representative. But that
                 does not mean you cannot work with our office. We are here to
@@ -188,7 +192,7 @@
                 Staff and employees? We may be able to help. Let us be your
                 advocates with the City government and help you thrive.
               </p>
-              <h4 class="bold text-uppercase color-primary">Stay engaged</h4>
+              <h4 class="h3 text-uppercase color-primary">Stay engaged</h4>
               <p class="fw-semi-bold small">
                 Would it be helpful for your business if we had a business
                 specific newsletter or a social media page? Please contact us to
@@ -199,18 +203,18 @@
               </p>
               <div class="d-flex justify-content-between">
                 <div>
-                  <h4 class="bold text-uppercase color-primary">
+                  <h4 class="h3 text-uppercase color-primary">
                     Get in touch
                   </h4>
-                  <span class="small" style="color: #006255"
-                    >Email: district10@denvergov.org</span
+                  <p class="small mb-1 fw-bold" style="color: #006255"
+                    >Email: district10@denvergov.org</p
                   >
-                  <span class="small" style="color: #006255"
-                    >Phone: 720-337-7710</span
+                  <p class="small fw-bold" style="color: #006255"
+                    >Phone: 720-337-7710</p
                   >
                 </div>
                 <div>
-                  <h4 class="bold text-uppercase color-primary">Follow us</h4>
+                  <h4 class="h3 text-uppercase color-primary">Follow us</h4>
                   <div class="contact-media">
                     <a href="" class="color-yellow"
                       ><i class="fa fa-instagram"></i
@@ -226,10 +230,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-6 col-lg-5  wow animate__animated animate__slideInRight">
             <div class="contact-form bg-sky p-4">
-              <h4 class="bold text-uppercase color-primary">Contact form</h4>
-              <div>
+              <h4 class="h3 text-uppercase color-primary text-center mb-3">Contact form</h4>
+              <div class="mb-3">
                 <label for=""
                   >Your Name (First & Last Name) <span>*</span></label
                 ><input
@@ -238,7 +242,7 @@
                   placeholder="Your Name"
                 />
               </div>
-              <div>
+              <div class="mb-3">
                 <label for="">Your Neighborhood (ex. Cheesman Park)</label
                 ><input
                   type="text"
@@ -246,7 +250,7 @@
                   placeholder="Your Neighbour"
                 />
               </div>
-              <div>
+              <div class="mb-3">
                 <label for="">Your Zip Code (ex. 80205)</label
                 ><input
                   type="text"
@@ -254,22 +258,24 @@
                   placeholder="Your zip code"
                 />
               </div>
-              <div>
+              <div class="mb-3">
                 <label for="">Email <span>*</span></label
                 ><input type="text" class="form-control" placeholder="" />
               </div>
-              <div>
-                <label for=""></label
-                ><input type="text" class="form-control" placeholder="" />
+              <div class="mb-3">
+                <label for="">Comment/Question/Idea/Concern</label
+                ><textarea name="" class="form-control" id="" cols="30" rows="5"></textarea>
+                
               </div>
+              <button class="btn btn-secondary text-uppercase rounded-0 w-25 mx-auto d-block fw-semi-bold">send</button>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- section for numbers  -->
-    <section class="section-numbers">
-      <h3 class="text-center bold text-white py-5">
+    <section class="section-numbers  wow animate__animated animate__fadeInUp">
+      <h3 class="h2 text-center bold text-white py-5">
         Numbers to Call for <span class="color-yellow">Assistance</span>
       </h3>
       <div class="numbers-content">
@@ -279,41 +285,60 @@
             City contact numbers:
           </p>
           <div class="row gy-3">
-            <div class="col-md-4 text-center">
+            <div class="col-md-6 col-lg-4 text-center">
               <img src="img/icon-1.png" alt="" />
-              <h3 class="text-primary">911 - Emergency Line</h3>
-              <p class="small">In an emergency, call 911</p>
+              <h3 class="text-primary h4">911 - Emergency Line</h3>
+              <p class="small fw-semi-bold">In an emergency, call 911</p>
             </div>
-            <div class="col-md-4 text-center">
-              <img src="img/icon-1.png" alt="" />
-              <h3 class="text-primary">911 - Emergency Line</h3>
-              <p class="small">In an emergency, call 911</p>
+            <div class="col-md-6 col-lg-4 text-center">
+              <img src="img/icon-2.png" alt="" />
+              <h3 class="text-primary h4">Denver non-emergency police line</h3>
+              <p class="small fw-semi-bold">for all non-emergent situations such as requesting a welfare check or reporting something suspicious, call (720) 913-2000</p>
             </div>
-            <div class="col-md-4 text-center">
-              <img src="img/icon-1.png" alt="" />
-              <h3 class="text-primary">911 - Emergency Line</h3>
-              <p class="small">In an emergency, call 911</p>
+            <div class="col-md-6 col-lg-4 text-center">
+              <img src="img/icon-3.png" alt="" />
+              <h3 class="text-primary h4">General Inquiries</h3>
+              <p class="small fw-semi-bold">for general inquiries call 311</p>
             </div>
-            <div class="col-md-4 text-center">
-              <img src="img/icon-1.png" alt="" />
-              <h3 class="text-primary">911 - Emergency Line</h3>
-              <p class="small">In an emergency, call 911</p>
+            <div class="col-md-6 col-lg-4 text-center">
+              <img src="img/icon-4.png" alt="" />
+              <h3 class="text-primary h4">Parking violations</h3>
+              <p class="small fw-semi-bold">If you suspect a parking meter violation, call the City's parking dispatch line at (720) 913-1600</p>
             </div>
-            <div class="col-md-4 text-center">
-              <img src="img/icon-1.png" alt="" />
-              <h3 class="text-primary">911 - Emergency Line</h3>
-              <p class="small">In an emergency, call 911</p>
+            <div class="col-md-6 col-lg-4 text-center">
+              <img src="img/icon-5.png" alt="" />
+              <h3 class="text-primary h4">Denver Excise and License</h3>
+              <p class="small fw-semi-bold">for all business licenses and liquor licenses visit the Business Licensing Center or call 311</p>
             </div>
-            <div class="col-md-4 text-center">
-              <img src="img/icon-1.png" alt="" />
-              <h3 class="text-primary">911 - Emergency Line</h3>
-              <p class="small">In an emergency, call 911</p>
+            <div class="col-md-6 col-lg-4 text-center">
+              <img src="img/icon-6.png" alt="" />
+              <h3 class="text-primary h4">Department of Transportation & Infrastructure (DOTI)</h3>
+              <p class="small fw-semi-bold">for all permitting needs including questions, applications and rules, visit the Right of Way & General Permits center or call 303-446-3759</p>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- section color  -->
     <section class="bg-primary section-color"></section>
+    <!-- section security  -->
+    <section class="section-security mb-5  wow animate__animated animate__fadeIn">
+      <div class="section-security-img"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5"></div>
+          <div class="col-md-7 ">
+            <div class="p-4 bg-blue-lightest">
+              <h2 class="h2 text-primary mb-3">Safety & Security <span class="text-blue-light">Resources</span></h2>
+          <p class="small-1 fw-semi-bold">To help keep D10, your business and employees safe, creating relationships with the Denver Police Community Resource Officers (CRO) is vital.  They can assess your business for security deficiencies, provide safety and crime information, connect you to additional safety and crime prevention resources and become a welcome friend in the neighborhood.
+          </p>
+        <p class="small-1 fw-semi-bold">You can connect with your CRO with any non-emergency questions. If it is an emergency, always call 911. As a reminder, you can call 311 to report non-emergency questions, problems and concerns with the City and County of Denver.  For more information on Community Resource Officers in District 10, please visit our <a href="" class="text-primary">Police Districts page</a>.</p>
+        <button class="btn btn-primary w-75 text-uppercase rounded-0 fw-semi-bold">view police districts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="section-prospects">
       <div class="container-fluid">
         <div class="row">
@@ -321,7 +346,7 @@
             <div class="prospects">
               <img src="img/prospect-1.jpg" alt="" />
               <div class="prospects-content text-white p-4">
-                <h3 class="bold">
+                <h3 class="bold h3 text-uppercase">
                   Owning a Business in Denver and Working with City Council
                 </h3>
                 <p class="small fw-semi-bold">
@@ -353,7 +378,7 @@
             <div class="prospects">
               <img src="img/prospect-1.jpg" alt="" />
               <div class="prospects-content text-white p-4">
-                <h3 class="bold">
+                <h3 class="h3 text-uppercase">
                   Owning a Business in Denver and Working with City Council
                 </h3>
                 <p class="small fw-semi-bold">
@@ -384,11 +409,54 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
+    <footer class="footer text-white mt-5">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-4"><img src="img/footer-logo.jpg" alt="" /></div>
-          <div class="col-sm-8"></div>
+          <div class="col-sm-4 col-md-3"><img src="img/footer-logo.jpg" alt="" /></div>
+          <div class="col-sm-8 col-md-9">
+            <div class="footer-top bg-primary py-4 px-5">
+              <div class="row gy-5">
+                <div class="col-lg-6 ">
+                  <h3 class="h3">ABOUT COUNCILMAN CHRIS HINDS</h3>
+                  <p class="small-1 fw-semi-bold">
+                    Chris Hinds has dedicated himself to service. He believes
+                    everyone in Denver deserves access to opportunities – access
+                    to housing, transportation, fresh and healthy food, and
+                    everything necessary to thrive.
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <h3 class="h3">Contact Us</h3>
+                  <p class="fw-semi-bold small mb-1">
+                    <a href="tel:720-337-7710" class="color-yellow text-decoration-none"
+                      ><i class="fa fa-phone me-2 "></i> 720-337-7710</a
+                    >
+                    <p class="fw-semi-bold small"><a href="#" class="color-yellow"><i class=" me-2 fa fa-envelope"></i>district10@denvergov.org</a></p>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom bg-secondary py-4 px-5">
+              <div class="row gy-4">
+                <div class="col-md-3">&copy; 2023 Chris Hinds</div>
+                <div class="col-md-7">
+                  <a href="#" class="text-uppercase text-white small fw-semi-bold">site map</a> |
+                  <a href="#" class="text-uppercase text-white small fw-semi-bold">privacy policy</a> |
+                  <a href="#" class="text-uppercase text-white small fw-semi-bold">accessibility policy</a>
+                </div>
+                <div class="col-md-2"> <div class="contact-media">
+                  <a href="" class="color-yellow"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a href="" class="color-yellow"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                  <a href="" class="color-yellow"
+                    ><i class="fa fa-facebook"></i
+                  ></a></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -397,6 +465,10 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
