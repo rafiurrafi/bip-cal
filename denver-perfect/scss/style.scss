@@ -206,6 +206,15 @@ $color-green-1: #004037;
 }
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
+  .section-hero .hero-text {
+    right: auto;
+    left: 57%;
+  }
+}
+@media (min-width: 2100px) {
+  .section-hero .hero-text {
+    left: 54%;
+  }
 }
 
 // X-Large devices (large desktops, 1200px and up)

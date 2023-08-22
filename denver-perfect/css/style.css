@@ -161,6 +161,13 @@ body {
     width: 90%;
     transform: translateY(-2.5rem); }
 
+@media (min-width: 1400px) {
+  .section-hero .hero-text {
+    right: auto;
+    left: 57%; } }
+@media (min-width: 2100px) {
+  .section-hero .hero-text {
+    left: 54%; } }
 @media (max-width: 992px) {
   .h1 {
     font-size: 2rem !important; }
