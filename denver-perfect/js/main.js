@@ -7,15 +7,24 @@
 // const sectionSecurityImg = document.querySelector(".section-security-img");
 
 const heroContent = document.querySelector(".hero-text");
+const heroImg = document.querySelector(".section-hero-bg");
 const sectionContact = document.querySelector(".section-contact");
-
-const windowWidth = window.innerWidth;
-console.log(windowWidth);
-
-if (windowWidth < 1217) {
-  const heroContentHeight = heroContent.clientHeight;
-  sectionContact.style.marginTop = heroContentHeight * 0.8 + "px";
+const tabletSize = 991;
+function resizeListener() {
+  const windowWidth = window.innerWidth;
+  const heighOfContent =
+    heroContent.getBoundingClientRect().bottom -
+    heroImg.getBoundingClientRect().bottom;
+  if (windowWidth < tabletSize) {
+    console.log(windowWidth, tabletSize);
+    const heroContentHeight = heroContent.clientHeight;
+    sectionContact.style.marginTop = heighOfContent + "px";
+  } else {
+    sectionContact.style.marginTop = 0 + "px";
+  }
 }
+resizeListener();
+window.addEventListener("resize", resizeListener);
 
 //change size of section number grid
 // let numberContentHeight = numberContent.clientHeight;
