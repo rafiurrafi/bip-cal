@@ -15,13 +15,16 @@ function resizeListener() {
   const heighOfContent =
     heroContent.getBoundingClientRect().bottom -
     heroImg.getBoundingClientRect().bottom;
-  if (windowWidth < tabletSize) {
-    console.log(windowWidth, tabletSize);
-    const heroContentHeight = heroContent.clientHeight;
-    sectionContact.style.marginTop = heighOfContent + "px";
-  } else {
-    sectionContact.style.marginTop = 0 + "px";
-  }
+  console.log(heighOfContent);
+  // if (windowWidth < tabletSize) {
+  //   console.log(windowWidth, tabletSize);
+  //   sectionContact.style.marginTop =
+  //     heighOfContent > 0 ? heighOfContent + "px" : 0 + "px";
+  // } else {
+  //   sectionContact.style.marginTop = 0 + "px";
+  // }
+  sectionContact.style.marginTop =
+    heighOfContent > 0 ? heighOfContent + "px" : 0 + "px";
 }
 resizeListener();
 window.addEventListener("resize", resizeListener);
