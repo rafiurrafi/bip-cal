@@ -2,7 +2,7 @@
   --fs-custom-h1: 2.375rem;
   --fs-custom-h2: 2rem;
   --fs-custom-h3: 1.3rem;
-  --fs-custom-h4: 1.2rem;
+  --fs-custom-h4: 1rem;
   --fs-custom-small: 0.75rem;
   --fw-custom-heading: bold; }
 
@@ -66,13 +66,10 @@ body {
 
 .section-hero {
   position: relative;
-  overflow: hidden; }
-  .section-hero-bg {
-    width: 100%; }
-    .section-hero-bg img {
-      width: 100%;
-      height: 810px;
-      object-fit: cover; }
+  overflow: hidden;
+  height: 810px;
+  background-position: center;
+  background-attachment: fixed; }
   .section-hero .hero-text {
     position: absolute;
     top: 0%;
@@ -164,10 +161,19 @@ body {
 @media (min-width: 1400px) {
   .section-hero .hero-text {
     right: auto;
-    left: 57%; } }
-@media (min-width: 2100px) {
+    left: 57%; }
+
+  .section-prospects img {
+    height: 30rem; } }
+@media (min-width: 2000px) {
+  .container {
+    max-width: 1800px !important; }
+
   .section-hero .hero-text {
-    left: 54%; } }
+    left: 64%; }
+
+  .section-prospects img {
+    height: 35rem; } }
 @media (max-width: 992px) {
   .h1 {
     font-size: 2rem !important; }

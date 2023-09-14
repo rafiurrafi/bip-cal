@@ -2,7 +2,7 @@
   --fs-custom-h1: 2.375rem;
   --fs-custom-h2: 2rem;
   --fs-custom-h3: 1.3rem;
-  --fs-custom-h4: 1.2rem;
+  --fs-custom-h4: 1rem;
   --fs-custom-small: 0.75rem;
   --fw-custom-heading: bold;
 }
@@ -78,14 +78,17 @@ $color-green-1: #004037;
 .section-hero {
   position: relative;
   overflow: hidden;
-  &-bg {
-    width: 100%;
-    img {
-      width: 100%;
-      height: 810px;
-      object-fit: cover;
-    }
-  }
+  height: 810px;
+  background-position: center;
+  // background-size: cover;
+  background-attachment: fixed;
+  // &-bg {
+  //   width: 100%;
+  //   img {
+  //     width: 100%;
+  //     object-fit: cover;
+  //   }
+  // }
   .hero-text {
     position: absolute;
     top: 0%;
@@ -210,10 +213,23 @@ $color-green-1: #004037;
     right: auto;
     left: 57%;
   }
+  .section-prospects {
+    img {
+      height: 30rem;
+    }
+  }
 }
-@media (min-width: 2100px) {
+@media (min-width: 2000px) {
+  .container {
+    max-width: 1800px !important;
+  }
   .section-hero .hero-text {
-    left: 54%;
+    left: 64%;
+  }
+  .section-prospects {
+    img {
+      height: 35rem;
+    }
   }
 }
 
