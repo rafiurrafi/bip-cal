@@ -26,4 +26,30 @@
     bottom: 10vh;
     left: 6rem; }
 
+.section-home-about {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-color: #dce3f0; }
+  .section-home-about .about-bg {
+    background-image: linear-gradient(rgba(2, 38, 97, 0.9), rgba(2, 38, 97, 0.9)), url(../img/home-about-bg.jpg);
+    height: inherit;
+    width: 23vw;
+    background-color: #5175b3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute; }
+    .section-home-about .about-bg-content {
+      position: absolute;
+      right: -35%;
+      top: 15%;
+      width: 17rem;
+      background-color: red; }
+    .section-home-about .about-bg img {
+      width: 100%;
+      height: 80%;
+      object-fit: cover; }
+  .section-home-about .container {
+    padding: 4rem 0; }
+
 /*# sourceMappingURL=home.css.map */
