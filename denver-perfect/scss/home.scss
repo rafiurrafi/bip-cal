@@ -1,4 +1,13 @@
 // Reusable style
+.p-y-gen {
+  padding: 4rem 0;
+}
+.bg-golden {
+  background-color: #cea55d;
+}
+.text-golden {
+  color: #cea55d;
+}
 .text-primary-light {
   color: #5175b3;
 }
@@ -62,5 +71,22 @@
   }
   .container {
     padding: 4rem 0;
+  }
+}
+.section-home-resources {
+  background-image: linear-gradient(rgba(#023c33, 0.9), rgba(#023c33, 0.9)),
+    url(../img/resource-bg.jpg);
+  img {
+    width: 3.5rem;
+  }
+  .box-triangle {
+    height: 4rem;
+    width: 4rem;
+    right: -2rem;
+    bottom: -2rem;
+    transform: rotate(-45deg);
+    i.fa {
+      transform: translate(23px, 0) rotate(45deg);
+    }
   }
 }

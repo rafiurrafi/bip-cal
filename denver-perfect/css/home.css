@@ -1,3 +1,12 @@
+.p-y-gen {
+  padding: 4rem 0; }
+
+.bg-golden {
+  background-color: #cea55d; }
+
+.text-golden {
+  color: #cea55d; }
+
 .text-primary-light {
   color: #5175b3; }
 
@@ -51,5 +60,18 @@
       object-fit: cover; }
   .section-home-about .container {
     padding: 4rem 0; }
+
+.section-home-resources {
+  background-image: linear-gradient(rgba(2, 60, 51, 0.9), rgba(2, 60, 51, 0.9)), url(../img/resource-bg.jpg); }
+  .section-home-resources img {
+    width: 3.5rem; }
+  .section-home-resources .box-triangle {
+    height: 4rem;
+    width: 4rem;
+    right: -2rem;
+    bottom: -2rem;
+    transform: rotate(-45deg); }
+    .section-home-resources .box-triangle i.fa {
+      transform: translate(23px, 0) rotate(45deg); }
 
 /*# sourceMappingURL=home.css.map */
