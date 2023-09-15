@@ -1,0 +1,20 @@
+#chris-mockup .section-mockup-hero {
+  margin-bottom: 10rem;
+  position: relative;
+  height: 70vh;
+  background-image: linear-gradient(rgba(12, 46, 104, 0.9), rgba(12, 46, 104, 0.9)), url(../img/mockup-hero.jpg);
+  background-size: cover;
+  background-position: center; }
+  #chris-mockup .section-mockup-hero img {
+    height: 80vh;
+    width: 30vw;
+    object-fit: cover;
+    position: absolute;
+    left: 6rem; }
+  #chris-mockup .section-mockup-hero .hero-content {
+    position: absolute;
+    left: 40vw;
+    bottom: 10vh;
+    width: 40%; }
+
+/*# sourceMappingURL=mockup.css.map */
