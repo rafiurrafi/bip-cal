@@ -16,5 +16,27 @@
     left: 40vw;
     bottom: 10vh;
     width: 40%; }
+#chris-mockup .section-mockup-about {
+  position: relative; }
+  #chris-mockup .section-mockup-about .breaking-text {
+    transform: rotate(-90deg);
+    position: absolute;
+    font-size: 5rem;
+    color: #004037;
+    opacity: 0.3;
+    left: -27%; }
+  #chris-mockup .section-mockup-about .news-inner {
+    width: 90%;
+    margin-left: 5%; }
+  #chris-mockup .section-mockup-about .about-img {
+    width: 90%;
+    height: 30rem;
+    margin-left: 5%; }
+    #chris-mockup .section-mockup-about .about-img img {
+      object-fit: cover;
+      width: 60%;
+      height: 70%;
+      margin-left: 20%;
+      margin-top: 15%; }
 
 /*# sourceMappingURL=mockup.css.map */

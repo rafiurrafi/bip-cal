@@ -21,4 +21,32 @@
       width: 40%;
     }
   }
+  .section-mockup-about {
+    position: relative;
+    .breaking-text {
+      transform: rotate(-90deg);
+      position: absolute;
+      font-size: 5rem;
+      color: #004037;
+      opacity: 0.3;
+      left: -27%;
+    }
+    .news-inner {
+      width: 90%;
+      margin-left: 5%;
+    }
+    .about-img {
+      width: 90%;
+      height: 30rem;
+      margin-left: 5%;
+      img {
+        object-fit: cover;
+        width: 60%;
+        height: 70%;
+        margin-left: 20%;
+        margin-top: 15%;
+      }
+    }
+  }
+  //   end of mockup main
 }

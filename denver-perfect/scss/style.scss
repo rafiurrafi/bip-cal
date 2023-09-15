@@ -74,6 +74,33 @@ $color-green-1: #004037;
     height: 3.75rem;
   }
 }
+.p-y-gen {
+  padding: 6rem 0;
+}
+.m-y-gen {
+  margin: 4rem 0;
+}
+.bg-golden {
+  background-color: #cea55d;
+}
+.text-golden {
+  color: #cea55d;
+}
+.text-primary-light {
+  color: #5175b3;
+}
+.p-gen {
+  padding: 0 6rem;
+}
+.btn-bg {
+  background-color: #006255;
+  &:hover {
+    background-color: #004037;
+  }
+}
+.btn-color {
+  color: #006255;
+}
 // section hero
 .section-hero {
   position: relative;
