@@ -52,5 +52,15 @@
 #chris-mockup .section-mockup-video h1 {
   width: 75%;
   margin: 0 auto; }
+#chris-mockup .section-mockup-priority {
+  background-image: linear-gradient(rgba(9, 42, 99, 0.9), rgba(9, 42, 99, 0.9)), url(../img/mockup-parties.jpg); }
+  #chris-mockup .section-mockup-priority .priority-progress {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: 0.5rem solid red;
+    position: relative; }
+    #chris-mockup .section-mockup-priority .priority-progress span:first-child {
+      font-size: 2rem; }
 
 /*# sourceMappingURL=mockup.css.map */

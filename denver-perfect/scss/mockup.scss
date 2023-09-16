@@ -69,5 +69,21 @@
       margin: 0 auto;
     }
   }
+  .section-mockup-priority {
+    background-image: linear-gradient(rgba(#092a63, 0.9), rgba(#092a63, 0.9)),
+      url(../img/mockup-parties.jpg);
+    .priority-progress {
+      height: 8rem;
+      width: 8rem;
+      border-radius: 50%;
+      border: 0.5rem solid red;
+      position: relative;
+      span {
+        &:first-child {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
   //   end of mockup main
 }
