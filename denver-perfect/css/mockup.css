@@ -49,5 +49,8 @@
       width: 100%;
       height: 22rem;
       object-fit: cover; }
+#chris-mockup .section-mockup-video h1 {
+  width: 75%;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=mockup.css.map */
