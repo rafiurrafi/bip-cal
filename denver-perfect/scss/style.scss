@@ -348,3 +348,25 @@ $color-green-1: #004037;
 .nav-ul li a {
   text-decoration: none;
 }
+.section-mockup-hero {
+  margin-bottom: 10rem;
+  position: relative;
+  height: 70vh;
+  background-image: linear-gradient(rgba(#0c2e68, 0.9), rgba(#0c2e68, 0.9)),
+    url(../img/mockup-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  img {
+    height: 80vh;
+    width: 30vw;
+    object-fit: cover;
+    position: absolute;
+    left: 6rem;
+  }
+  .hero-content {
+    position: absolute;
+    left: 40vw;
+    bottom: 10vh;
+    width: 40%;
+  }
+}
