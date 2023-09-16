@@ -62,5 +62,7 @@
     position: relative; }
     #chris-mockup .section-mockup-priority .priority-progress span:first-child {
       font-size: 2rem; }
+#chris-mockup .section-mockup-features img {
+  width: 5rem; }
 
 /*# sourceMappingURL=mockup.css.map */
