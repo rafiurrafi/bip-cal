@@ -1,26 +1,29 @@
-const chart1Context = document.getElementById("chart-1");
+// backgroundColor: "#092452",
+// borderColor: "#777674",
 
-new Chart(chart1Context, {
+// backgroundColor: "#e5e5e5",
+// borderColor: "#7f7f7d",
+var chartOne = document.getElementById("chart-1").getContext("2d");
+var myBarChart = new Chart(chartOne, {
   type: "bar",
   data: {
     labels: [
-      "bachelor or higher",
-      "Some college",
-      "HS Grad or Equivalent",
-      "Less then HS",
+      "Category 1",
+      "Category 2",
+      "Category 3",
+      "Category 4",
+      "Category 5",
     ],
     datasets: [
       {
-        label: "Cheeseman Park",
-        data: [70, 30, 10, 5],
-        borderWidth: 3,
+        label: "Dataset 1",
+        data: [12, 19, 3, 5, 2],
         backgroundColor: "#092452",
         borderColor: "#777674",
       },
       {
-        label: "Denver",
-        data: [50, 20, 18, 10],
-        borderWidth: 3,
+        label: "Dataset 2",
+        data: [7, 11, 5, 8, 14],
         backgroundColor: "#e5e5e5",
         borderColor: "#7f7f7d",
       },
@@ -28,82 +31,84 @@ new Chart(chart1Context, {
   },
   options: {
     scales: {
-      y: {
-        beginAtZero: true,
-      },
       x: {
+        title: {
+          display: true,
+          text: "X-Axis Title",
+        },
+        grid: {
+          // display: false, // Hide x-axis grid lines
+        },
         ticks: {
-          maxRotation: 45,
+          maxRotation: 45, // Rotate x-axis labels by 45 degrees
           minRotation: 45,
         },
       },
-      // x: [
-      //   {
-      //     id: "x-axis-1",
-      //     type: "Category",
-      //     ticks: {
-      //       maxRotation: 45,
-      //       minRotation: 45,
-      //     },
-      //   },
-      //   {
-      //     id: "x-axis-2",
-      //     type: "Category",
-      //     ticks: {
-      //       maxRotation: 45,
-      //       minRotation: 45,
-      //     },
-      //   },
-      // ],
-    },
-    plugins: {
-      // subtitle: {
-      //   display: true,
-      //   text: "Custom Chart Subtitle",
-      // },
+      y: {
+        beginAtZero: true,
+        title: {
+          display: true,
+          text: "Y-Axis Title",
+        },
+      },
     },
   },
 });
-// chart 2
-const chart2Context = document.getElementById("chart-2");
 
-new Chart(chart2Context, {
+// chart
+// Number
+// two
+var chartTwo = document.getElementById("chart-2").getContext("2d");
+var myBarChart = new Chart(chartTwo, {
   type: "line",
   data: {
-    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+    labels: [
+      "Category 1",
+      "Category 2",
+      "Category 3",
+      "Category 4",
+      "Category 5",
+    ],
     datasets: [
       {
-        label: "Cheeseman Park",
-        data: [70, 30, 10, 5],
-        borderWidth: 3,
+        label: "Dataset 1",
+        data: [12, 19, 3, 5, 2],
         backgroundColor: "#092452",
         borderColor: "#777674",
-        borderWidth: 2,
-        borderDash: [5, 5],
       },
       {
-        label: "Denver",
-        data: [50, 20, 18, 10],
-        borderWidth: 3,
+        label: "Dataset 2",
+        data: [7, 11, 5, 8, 14],
         backgroundColor: "#e5e5e5",
         borderColor: "#7f7f7d",
+        borderWidth: 2, // Line width
+        borderDash: [5, 5], // Defines a dashed pattern (5 pixels dash, 5 pixels gap)
+        fill: false, // To prevent filling the area under the line
       },
     ],
   },
   options: {
     scales: {
+      x: {
+        title: {
+          display: true,
+          text: "X-Axis Title",
+        },
+        grid: {
+          // display: false, // Hide x-axis grid lines
+        },
+        ticks: {
+          maxRotation: 45, // Rotate x-axis labels by 45 degrees
+          minRotation: 45,
+        },
+      },
       y: {
         beginAtZero: true,
-      },
-      x: [
-        {
-          ticks: {
-            // autoSkip: false,
-            maxRotation: 50,
-            minRotation: 50,
-          },
+        title: {
+          display: true,
+          text: "Y-Axis Title",
         },
-      ],
+      },
     },
   },
 });

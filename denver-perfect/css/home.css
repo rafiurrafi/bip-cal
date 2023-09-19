@@ -64,10 +64,10 @@
   .section-home-about .container {
     padding: 4rem 0; }
 
-.section-home-events .home-event-text .row .col-sm-2 div {
+.section-home-events .home-event-text .row .col-sm-3 div {
   height: 120px;
   border: 1px solid red; }
-.section-home-events .home-event-text .row .col-sm-10 div {
+.section-home-events .home-event-text .row .col-sm-9 div {
   border-top: 3px solid #cea55d; }
 .section-home-events .home-event-media div {
   position: relative; }
@@ -108,6 +108,13 @@
     width: 65%;
     left: 3rem; }
 
+  .section-home-news .news-para {
+    width: 75% !important; }
+
+  .home-event-media div {
+    width: 70%;
+    margin-left: 15%; }
+
   .section-home-about .about-bg {
     height: 100%;
     width: 30vw; } }
@@ -123,7 +130,10 @@
       width: 100%;
       z-index: -1; }
       .section-home-about .about-bg-content {
-        display: none; } }
+        display: none; }
+
+  .section-home-news .news-para {
+    width: 100% !important; } }
 @media (max-width: 575px) {
   .section-home-hero .hero-text {
     width: 95%;
@@ -131,6 +141,10 @@
     .section-home-hero .hero-text .h1 {
       font-size: 1.3rem; }
   .section-home-hero button.btn {
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .home-event-media div {
+    width: 90%;
+    margin-left: 5%; } }
 
 /*# sourceMappingURL=home.css.map */
