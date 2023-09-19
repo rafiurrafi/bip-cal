@@ -71,5 +71,8 @@
 @media (max-width: 575px) {
   .section-park-history .gallery-1 {
     height: 350px; } }
+#map {
+  height: 400px;
+  width: 100%; }
 
 /*# sourceMappingURL=park.css.map */
