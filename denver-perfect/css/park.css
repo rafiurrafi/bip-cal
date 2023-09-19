@@ -1,5 +1,9 @@
 .section-park-register {
   background-color: #004037; }
+  .section-park-register .row > * {
+    height: 200px !important; }
+    .section-park-register .row > * > * {
+      height: inherit; }
 
 .section-park-history .gallery-1 {
   height: 480px; }
@@ -7,5 +11,40 @@
   height: 390px; }
 .section-park-history .gallery-3 {
   height: 520px; }
+
+.section-park-demography .h2 img {
+  width: 40px; }
+.section-park-demography .park-icons {
+  border: 3px solid #dce3f0; }
+  .section-park-demography .park-icons > * {
+    height: 132px;
+    width: 100%;
+    border-bottom: 3px solid #dce3f0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .section-park-demography .park-icons > *:last-of-type {
+      border-bottom: none; }
+    .section-park-demography .park-icons > * img {
+      height: 65px; }
+.section-park-demography .demograph-row {
+  height: 132px;
+  border-bottom: 3px solid #cea55d;
+  width: 90%;
+  margin-left: 5%; }
+  .section-park-demography .demograph-row:first-of-type {
+    border-top: 3px solid #cea55d; }
+.section-park-demography .demograph-safety {
+  transform: translateY(-160px); }
+.section-park-demography .demograph-img {
+  height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  object-fit: cover; }
+
+@media (max-width: 992px) {
+  .section-park-demography .demograph-safety {
+    transform: translateY(0);
+    margin-top: 2rem; } }
 
 /*# sourceMappingURL=park.css.map */

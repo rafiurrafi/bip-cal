@@ -2,12 +2,12 @@
   .section-mockup-about {
     position: relative;
     .breaking-text {
-      transform: rotate(-90deg);
+      transform: rotate(-90deg) translateY(-240px);
       position: absolute;
       font-size: 4rem;
       color: #004037;
       opacity: 0.3;
-      left: -20%;
+
       top: 170px;
     }
     .news-inner {
@@ -72,9 +72,19 @@
       height: 8rem;
       width: 8rem;
       border-radius: 50%;
-      border: 0.5rem solid red;
+      background: conic-gradient(#4d5bf9 80deg, #cadcff 80deg);
       position: relative;
+      &::before {
+        height: 84%;
+        width: 84%;
+        content: "";
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+      }
       span {
+        position: relative;
+        z-index: 2;
         &:first-child {
           font-size: 2rem;
         }
@@ -91,11 +101,11 @@
 @media (min-width: 1400px) {
   #chris-mockup {
     .section-mockup-about {
-      .breaking-text {
-        opacity: 0.3;
-        left: -17%;
-        top: 170px;
-      }
+      // .breaking-text {
+      //   opacity: 0.3;
+      //   left: -17%;
+      //   top: 170px;
+      // }
       .about-img {
         height: 400px;
       }
@@ -193,6 +203,9 @@
         img {
           height: 290px;
         }
+      }
+      .breaking-text {
+        opacity: 0.15;
       }
     }
 

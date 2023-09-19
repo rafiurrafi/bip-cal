@@ -1,5 +1,13 @@
 .section-park-register {
   background-color: #004037;
+  .row {
+    & > * {
+      height: 200px !important;
+      & > * {
+        height: inherit;
+      }
+    }
+  }
 }
 .section-park-history {
   .gallery-text {
@@ -13,4 +21,63 @@
   .gallery-3 {
     height: 520px;
   }
+}
+.section-park-demography {
+  .h2 img {
+    width: 40px;
+  }
+  .park-icons {
+    border: 3px solid #dce3f0;
+    & > * {
+      height: 132px;
+      width: 100%;
+      border-bottom: 3px solid #dce3f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:last-of-type {
+        border-bottom: none;
+      }
+      img {
+        height: 65px;
+      }
+    }
+  }
+  .demograph-row {
+    height: 132px;
+    border-bottom: 3px solid #cea55d;
+    width: 90%;
+    margin-left: 5%;
+    &:first-of-type {
+      border-top: 3px solid #cea55d;
+    }
+  }
+  .demograph-safety {
+    transform: translateY(-160px);
+    .h2 {
+      // font-size: 1.9rem;
+    }
+  }
+  .demograph-img {
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    object-fit: cover;
+  }
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .section-park-demography {
+    .demograph-safety {
+      transform: translateY(0);
+      margin-top: 2rem;
+    }
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 575px) {
 }

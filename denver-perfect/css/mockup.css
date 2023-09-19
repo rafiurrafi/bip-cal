@@ -1,12 +1,11 @@
 #chris-mockup .section-mockup-about {
   position: relative; }
   #chris-mockup .section-mockup-about .breaking-text {
-    transform: rotate(-90deg);
+    transform: rotate(-90deg) translateY(-240px);
     position: absolute;
     font-size: 4rem;
     color: #004037;
     opacity: 0.3;
-    left: -20%;
     top: 170px; }
   #chris-mockup .section-mockup-about .news-inner {
     width: 80%;
@@ -47,18 +46,24 @@
     height: 8rem;
     width: 8rem;
     border-radius: 50%;
-    border: 0.5rem solid red;
+    background: conic-gradient(#4d5bf9 80deg, #cadcff 80deg);
     position: relative; }
-    #chris-mockup .section-mockup-priority .priority-progress span:first-child {
-      font-size: 2rem; }
+    #chris-mockup .section-mockup-priority .priority-progress::before {
+      height: 84%;
+      width: 84%;
+      content: "";
+      position: absolute;
+      background-color: white;
+      border-radius: 50%; }
+    #chris-mockup .section-mockup-priority .priority-progress span {
+      position: relative;
+      z-index: 2; }
+      #chris-mockup .section-mockup-priority .priority-progress span:first-child {
+        font-size: 2rem; }
 #chris-mockup .section-mockup-features img {
   width: 5rem; }
 
 @media (min-width: 1400px) {
-  #chris-mockup .section-mockup-about .breaking-text {
-    opacity: 0.3;
-    left: -17%;
-    top: 170px; }
   #chris-mockup .section-mockup-about .about-img {
     height: 400px; }
   #chris-mockup .section-mockup-gallery {
@@ -110,6 +115,8 @@
     height: 390px; }
     #chris-mockup .section-mockup-about .about-img img {
       height: 290px; }
+  #chris-mockup .section-mockup-about .breaking-text {
+    opacity: 0.15; }
   #chris-mockup .section-mockup-gallery .gallery-text {
     padding: 2rem 0; }
   #chris-mockup .section-mockup-gallery .gallery-2,
