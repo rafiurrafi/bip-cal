@@ -32,7 +32,6 @@
   }
   .section-mockup-gallery {
     overflow: hidden;
-    background-color: red;
     img {
       width: 100%;
       object-fit: cover;
@@ -121,19 +120,23 @@
 @media (min-width: 2000px) {
 }
 @media (max-width: 1200px) {
-  .section-mockup-gallery {
-    overflow: hidden;
-    .gallery-1 {
-      height: 350px;
-    }
-    .gallery-2 {
-      height: 350px;
-    }
-    .gallery-3 {
-      height: 350px;
-    }
-    .gallery-4 {
-      height: 350px;
+  #chris-mockup {
+    .section-mockup-gallery {
+      overflow: hidden;
+      .gallery-1 {
+        height: 350px;
+      }
+      .gallery-2,
+      .gallery-3 {
+        height: 550px;
+      }
+      .gallery-4 {
+        height: 350px;
+      }
+      .gallery-text {
+        padding: 0 0 2rem 0;
+        margin-left: 10%;
+      }
     }
   }
 }
@@ -145,6 +148,16 @@
         height: 350px;
       }
     }
+    .section-mockup-gallery {
+      .gallery-1,
+      .gallery-4 {
+        height: 400px;
+      }
+      .gallery-2,
+      .gallery-3 {
+        height: 450px;
+      }
+    }
   }
 }
 @media (max-width: 768px) {
@@ -152,6 +165,16 @@
     .section-mockup-about {
       .about-img {
         height: 450px;
+      }
+    }
+    .section-mockup-gallery {
+      .gallery-1,
+      .gallery-4 {
+        height: 350px;
+      }
+      .gallery-2,
+      .gallery-3 {
+        height: 400px;
       }
     }
   }
@@ -164,6 +187,16 @@
         img {
           height: 290px;
         }
+      }
+    }
+
+    .section-mockup-gallery {
+      .gallery-text {
+        padding: 2rem 0;
+      }
+      .gallery-2,
+      .gallery-3 {
+        height: 600px;
       }
     }
   }

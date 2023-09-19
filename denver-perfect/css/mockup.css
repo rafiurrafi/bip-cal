@@ -23,8 +23,7 @@
       width: 70%;
       height: 70%; }
 #chris-mockup .section-mockup-gallery {
-  overflow: hidden;
-  background-color: red; }
+  overflow: hidden; }
   #chris-mockup .section-mockup-gallery img {
     width: 100%;
     object-fit: cover; }
@@ -73,26 +72,45 @@
     #chris-mockup .section-mockup-gallery .gallery-4 {
       height: 350px; } }
 @media (max-width: 1200px) {
-  .section-mockup-gallery {
+  #chris-mockup .section-mockup-gallery {
     overflow: hidden; }
-    .section-mockup-gallery .gallery-1 {
+    #chris-mockup .section-mockup-gallery .gallery-1 {
       height: 350px; }
-    .section-mockup-gallery .gallery-2 {
+    #chris-mockup .section-mockup-gallery .gallery-2,
+    #chris-mockup .section-mockup-gallery .gallery-3 {
+      height: 550px; }
+    #chris-mockup .section-mockup-gallery .gallery-4 {
       height: 350px; }
-    .section-mockup-gallery .gallery-3 {
-      height: 350px; }
-    .section-mockup-gallery .gallery-4 {
-      height: 350px; } }
+    #chris-mockup .section-mockup-gallery .gallery-text {
+      padding: 0 0 2rem 0;
+      margin-left: 10%; } }
 @media (max-width: 992px) {
   #chris-mockup .section-mockup-about .about-img {
-    height: 350px; } }
+    height: 350px; }
+  #chris-mockup .section-mockup-gallery .gallery-1,
+  #chris-mockup .section-mockup-gallery .gallery-4 {
+    height: 400px; }
+  #chris-mockup .section-mockup-gallery .gallery-2,
+  #chris-mockup .section-mockup-gallery .gallery-3 {
+    height: 450px; } }
 @media (max-width: 768px) {
   #chris-mockup .section-mockup-about .about-img {
-    height: 450px; } }
+    height: 450px; }
+  #chris-mockup .section-mockup-gallery .gallery-1,
+  #chris-mockup .section-mockup-gallery .gallery-4 {
+    height: 350px; }
+  #chris-mockup .section-mockup-gallery .gallery-2,
+  #chris-mockup .section-mockup-gallery .gallery-3 {
+    height: 400px; } }
 @media (max-width: 576px) {
   #chris-mockup .section-mockup-about .about-img {
     height: 390px; }
     #chris-mockup .section-mockup-about .about-img img {
-      height: 290px; } }
+      height: 290px; }
+  #chris-mockup .section-mockup-gallery .gallery-text {
+    padding: 2rem 0; }
+  #chris-mockup .section-mockup-gallery .gallery-2,
+  #chris-mockup .section-mockup-gallery .gallery-3 {
+    height: 600px; } }
 
 /*# sourceMappingURL=mockup.css.map */
