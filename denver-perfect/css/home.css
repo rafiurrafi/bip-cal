@@ -39,13 +39,12 @@
     left: 6rem; }
 
 .section-home-about {
-  height: 100vh;
   position: relative;
   width: 100%;
   background-color: #dce3f0; }
   .section-home-about .about-bg {
     background-image: linear-gradient(rgba(2, 38, 97, 0.9), rgba(2, 38, 97, 0.9)), url(../img/home-about-bg.jpg);
-    height: inherit;
+    height: 100%;
     width: 23vw;
     background-color: #5175b3;
     background-size: cover;
@@ -54,9 +53,10 @@
     .section-home-about .about-bg-content {
       position: absolute;
       right: -35%;
-      top: 15%;
+      top: 50%;
+      transform: translateY(-50%);
       width: 17rem;
-      background-color: red; }
+      background-color: #001944; }
     .section-home-about .about-bg img {
       width: 100%;
       height: 80%;
@@ -76,5 +76,29 @@
     transform: rotate(-45deg); }
     .section-home-resources .box-triangle i.fa {
       transform: translate(23px, 0) rotate(45deg); }
+
+@media (max-width: 1200px) {
+  .section-home-hero .hero-text {
+    width: 55%; } }
+@media (max-width: 992px) {
+  .section-home-hero .hero-text {
+    width: 65%;
+    left: 3rem; }
+
+  .section-home-about .about-bg {
+    height: 100%;
+    width: 30vw; } }
+@media (max-width: 768px) {
+  .section-home-hero .hero-text {
+    width: 75%;
+    left: 2rem; } }
+@media (max-width: 575px) {
+  .section-home-hero .hero-text {
+    width: 95%;
+    left: 1rem; }
+    .section-home-hero .hero-text .h1 {
+      font-size: 1.3rem; }
+  .section-home-hero button.btn {
+    width: 100% !important; } }
 
 /*# sourceMappingURL=home.css.map */
