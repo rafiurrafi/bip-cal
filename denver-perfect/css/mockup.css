@@ -92,7 +92,10 @@
     height: 400px; }
   #chris-mockup .section-mockup-gallery .gallery-2,
   #chris-mockup .section-mockup-gallery .gallery-3 {
-    height: 450px; } }
+    height: 450px; }
+  #chris-mockup .section-mockup-video h1 {
+    width: 95%;
+    margin: 0 auto; } }
 @media (max-width: 768px) {
   #chris-mockup .section-mockup-about .about-img {
     height: 450px; }
@@ -111,6 +114,10 @@
     padding: 2rem 0; }
   #chris-mockup .section-mockup-gallery .gallery-2,
   #chris-mockup .section-mockup-gallery .gallery-3 {
-    height: 600px; } }
+    height: 600px; }
+  #chris-mockup .section-mockup-priority .priority-progress {
+    margin-left: auto; }
+  #chris-mockup .section-mockup-features img {
+    width: 5rem; } }
 
 /*# sourceMappingURL=mockup.css.map */

@@ -158,6 +158,12 @@
         height: 450px;
       }
     }
+    .section-mockup-video {
+      h1 {
+        width: 95%;
+        margin: 0 auto;
+      }
+    }
   }
 }
 @media (max-width: 768px) {
@@ -197,6 +203,17 @@
       .gallery-2,
       .gallery-3 {
         height: 600px;
+      }
+    }
+
+    .section-mockup-priority {
+      .priority-progress {
+        margin-left: auto;
+      }
+    }
+    .section-mockup-features {
+      img {
+        width: 5rem;
       }
     }
   }
