@@ -259,13 +259,13 @@ body {
 .section-mockup-hero {
   margin-bottom: 10rem;
   position: relative;
-  height: 70vh;
+  height: 390px;
   background-image: linear-gradient(rgba(12, 46, 104, 0.9), rgba(12, 46, 104, 0.9)), url(../img/mockup-hero.jpg);
   background-size: cover;
   background-position: center; }
   .section-mockup-hero img {
-    height: 80vh;
-    width: 30vw;
+    height: 480px;
+    width: 400px;
     object-fit: cover;
     position: absolute;
     left: 6rem; }
@@ -274,5 +274,43 @@ body {
     left: 40vw;
     bottom: 10vh;
     width: 40%; }
+
+@media (max-width: 1200px) {
+  .section-mockup-hero {
+    height: 360px; }
+    .section-mockup-hero img {
+      height: 430px;
+      width: 350px;
+      left: 5rem; }
+    .section-mockup-hero .hero-content {
+      left: 45vw;
+      bottom: 5vh;
+      width: 45%; } }
+@media (max-width: 768px) {
+  .section-mockup-hero {
+    height: 350px; }
+    .section-mockup-hero .h1 {
+      font-size: 1.8rem !important; }
+    .section-mockup-hero img {
+      height: 360px;
+      width: 250px;
+      left: 10px; }
+    .section-mockup-hero .hero-content {
+      left: 280px;
+      bottom: 0;
+      width: 45%; } }
+@media (max-width: 576px) {
+  .section-mockup-hero .h1 {
+    font-size: 1.5rem !important; }
+  .section-mockup-hero img {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -100px;
+    height: 200px;
+    width: 150px; }
+  .section-mockup-hero .hero-content {
+    left: 1rem;
+    top: 1rem;
+    width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */

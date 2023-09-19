@@ -348,17 +348,23 @@ $color-green-1: #004037;
 .nav-ul li a {
   text-decoration: none;
 }
+
+// Reusable code
+// sectioin mockup hero
 .section-mockup-hero {
   margin-bottom: 10rem;
   position: relative;
-  height: 70vh;
+  // height: 70vh;
+  height: 390px;
   background-image: linear-gradient(rgba(#0c2e68, 0.9), rgba(#0c2e68, 0.9)),
     url(../img/mockup-hero.jpg);
   background-size: cover;
   background-position: center;
   img {
-    height: 80vh;
-    width: 30vw;
+    // height: 80vh;
+    height: 480px;
+    width: 400px;
+    // width: 30vw;
     object-fit: cover;
     position: absolute;
     left: 6rem;
@@ -368,5 +374,57 @@ $color-green-1: #004037;
     left: 40vw;
     bottom: 10vh;
     width: 40%;
+  }
+}
+@media (max-width: 1200px) {
+  .section-mockup-hero {
+    height: 360px;
+    img {
+      height: 430px;
+      width: 350px;
+      left: 5rem;
+    }
+    .hero-content {
+      left: 45vw;
+      bottom: 5vh;
+      width: 45%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .section-mockup-hero {
+    height: 350px;
+    .h1 {
+      font-size: 1.8rem !important;
+    }
+    img {
+      height: 360px;
+      width: 250px;
+      left: 10px;
+    }
+    .hero-content {
+      left: 280px;
+      bottom: 0;
+      width: 45%;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .section-mockup-hero {
+    .h1 {
+      font-size: 1.5rem !important;
+    }
+    img {
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -100px;
+      height: 200px;
+      width: 150px;
+    }
+    .hero-content {
+      left: 1rem;
+      top: 1rem;
+      width: 90%;
+    }
   }
 }

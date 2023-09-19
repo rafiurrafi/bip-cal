@@ -4,42 +4,61 @@
     .breaking-text {
       transform: rotate(-90deg);
       position: absolute;
-      font-size: 5rem;
+      font-size: 4rem;
       color: #004037;
       opacity: 0.3;
-      left: -27%;
+      left: -20%;
+      top: 170px;
     }
     .news-inner {
-      width: 90%;
-      margin-left: 5%;
+      width: 80%;
+      margin-left: 10%;
     }
     .about-img {
       width: 90%;
-      height: 30rem;
+      height: 490px;
       margin-left: 5%;
+      margin-bottom: 4rem;
+      display: grid;
+      place-items: center;
       img {
         object-fit: cover;
-        width: 60%;
+        width: 70%;
         height: 70%;
-        margin-left: 20%;
-        margin-top: 15%;
+        // margin-left: 20%;
+        // margin-top: 15%;
       }
     }
   }
   .section-mockup-gallery {
     overflow: hidden;
+    background-color: red;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+    .gallery-1 {
+      height: 530px;
+    }
+    .gallery-2 {
+      height: 350px;
+    }
+    .gallery-3 {
+      height: 350px;
+    }
+    .gallery-4 {
+      height: 530px;
+    }
     .gallery-text {
       padding: 4.5rem 0;
       width: 80%;
     }
-    .gallery-inner-row {
-      height: 22rem;
-      img {
-        width: 100%;
-        height: 22rem;
-        object-fit: cover;
-      }
-    }
+    // .gallery-inner-row {
+    //   img {
+    //     width: 100%;
+    //     object-fit: cover;
+    //   }
+    // }
   }
   .section-mockup-video {
     h1 {
@@ -69,4 +88,83 @@
     }
   }
   //   end of mockup main
+}
+@media (min-width: 1400px) {
+  #chris-mockup {
+    .section-mockup-about {
+      .breaking-text {
+        opacity: 0.3;
+        left: -17%;
+        top: 170px;
+      }
+      .about-img {
+        height: 400px;
+      }
+    }
+    .section-mockup-gallery {
+      overflow: hidden;
+      .gallery-1 {
+        height: 530px;
+      }
+      .gallery-2 {
+        height: 350px;
+      }
+      .gallery-3 {
+        height: 350px;
+      }
+      .gallery-4 {
+        height: 350px;
+      }
+    }
+  }
+}
+@media (min-width: 2000px) {
+}
+@media (max-width: 1200px) {
+  .section-mockup-gallery {
+    overflow: hidden;
+    .gallery-1 {
+      height: 350px;
+    }
+    .gallery-2 {
+      height: 350px;
+    }
+    .gallery-3 {
+      height: 350px;
+    }
+    .gallery-4 {
+      height: 350px;
+    }
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+  #chris-mockup {
+    .section-mockup-about {
+      .about-img {
+        height: 350px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #chris-mockup {
+    .section-mockup-about {
+      .about-img {
+        height: 450px;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #chris-mockup {
+    .section-mockup-about {
+      .about-img {
+        height: 390px;
+        img {
+          height: 290px;
+        }
+      }
+    }
+  }
 }
