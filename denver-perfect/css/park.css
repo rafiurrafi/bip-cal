@@ -76,7 +76,11 @@
     height: 350px; }
   .section-park-history .gallery-text {
     width: 96%;
-    margin-left: 2%; } }
+    margin-left: 2%; }
+
+  .section-park-demography .demograph-row {
+    height: auto;
+    padding: 2rem 0; } }
 #map {
   height: 250px;
   width: 100%; }
