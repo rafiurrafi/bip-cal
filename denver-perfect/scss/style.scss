@@ -371,7 +371,7 @@ $color-green-1: #004037;
   }
   .hero-content {
     position: absolute;
-    left: 40vw;
+    left: 550px;
     bottom: 10vh;
     width: 40%;
   }
@@ -385,8 +385,22 @@ $color-green-1: #004037;
       left: 5rem;
     }
     .hero-content {
-      left: 45vw;
+      left: 500px;
       bottom: 5vh;
+      width: 45%;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .section-mockup-hero {
+    img {
+      height: 380px;
+      width: 300px;
+      left: 3;
+    }
+    .hero-content {
+      left: 400px;
+      bottom: 2rem;
       width: 45%;
     }
   }
@@ -405,12 +419,13 @@ $color-green-1: #004037;
     .hero-content {
       left: 280px;
       bottom: 0;
-      width: 45%;
+      width: 50%;
     }
   }
 }
 @media (max-width: 576px) {
   .section-mockup-hero {
+    min-height: 350px !important;
     .h1 {
       font-size: 1.5rem !important;
     }

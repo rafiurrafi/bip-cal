@@ -13,6 +13,9 @@
   .section-park-history .gallery-2-box p {
     transform: translateY(2rem);
     height: 130px; }
+.section-park-history .gallery-text {
+  width: 80%;
+  margin-left: 10%; }
 .section-park-history .gallery-1 {
   height: 450px; }
 .section-park-history .gallery-2 {
@@ -70,9 +73,12 @@
     height: 400px; } }
 @media (max-width: 575px) {
   .section-park-history .gallery-1 {
-    height: 350px; } }
+    height: 350px; }
+  .section-park-history .gallery-text {
+    width: 96%;
+    margin-left: 2%; } }
 #map {
-  height: 400px;
+  height: 250px;
   width: 100%; }
 
 /*# sourceMappingURL=park.css.map */

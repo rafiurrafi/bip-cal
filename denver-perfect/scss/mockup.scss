@@ -64,22 +64,37 @@
       width: 75%;
       margin: 0 auto;
     }
+    .mockup-video-container {
+      position: relative;
+      width: 75%;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+      overflow: hidden;
+      margin: 0 auto;
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
+    }
   }
   .section-mockup-priority {
     background-image: linear-gradient(rgba(#092a63, 0.9), rgba(#092a63, 0.9)),
       url(../img/mockup-parties.jpg);
     .priority-progress {
-      height: 8rem;
-      width: 8rem;
+      height: 7rem !important;
+      width: 7rem !important;
       border-radius: 50%;
-      background: conic-gradient(#4d5bf9 80deg, #cadcff 80deg);
+      // background: conic-gradient(#5175b3 80deg, #dce3f0 80deg);
+      background: conic-gradient(red 80deg, white 80deg);
       position: relative;
       &::before {
         height: 84%;
         width: 84%;
         content: "";
         position: absolute;
-        background-color: white;
+        background-color: #082762;
         border-radius: 50%;
       }
       span {
@@ -127,7 +142,14 @@
     }
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1920px) {
+  #chris-mockup {
+    .section-mockup-gallery {
+      .gallery-text {
+        width: 70%;
+      }
+    }
+  }
 }
 @media (max-width: 1200px) {
   #chris-mockup {
@@ -173,6 +195,11 @@
         width: 95%;
         margin: 0 auto;
       }
+
+      .mockup-video-container {
+        position: relative;
+        width: 90%;
+      }
     }
   }
 }
@@ -205,7 +232,12 @@
         }
       }
       .breaking-text {
-        opacity: 0.15;
+        font-size: 3rem;
+        transform: rotate(-90deg) translateY(-180px);
+      }
+      .news-inner {
+        width: 80%;
+        margin-left: 15%;
       }
     }
 
@@ -219,15 +251,12 @@
       }
     }
 
-    .section-mockup-priority {
-      .priority-progress {
-        margin-left: auto;
-      }
-    }
     .section-mockup-features {
       img {
         width: 5rem;
       }
     }
   }
+}
+@media (max-width: 576px) {
 }

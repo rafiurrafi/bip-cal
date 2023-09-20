@@ -22,6 +22,8 @@
     }
   }
   .gallery-text {
+    width: 80%;
+    margin-left: 10%;
   }
   .gallery-1 {
     height: 450px;
@@ -117,9 +119,13 @@
     .gallery-1 {
       height: 350px;
     }
+    .gallery-text {
+      width: 96%;
+      margin-left: 2%;
+    }
   }
 }
 #map {
-  height: 400px;
+  height: 250px;
   width: 100%;
 }
