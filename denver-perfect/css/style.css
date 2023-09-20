@@ -288,7 +288,7 @@ body {
       width: 45%; } }
 @media (max-width: 991px) {
   .section-mockup-hero img {
-    height: 380px;
+    height: 420px;
     width: 300px;
     left: 3; }
   .section-mockup-hero .hero-content {
@@ -301,7 +301,7 @@ body {
     .section-mockup-hero .h1 {
       font-size: 1.8rem !important; }
     .section-mockup-hero img {
-      height: 360px;
+      height: 380px;
       width: 250px;
       left: 10px; }
     .section-mockup-hero .hero-content {
@@ -310,18 +310,19 @@ body {
       width: 50%; } }
 @media (max-width: 576px) {
   .section-mockup-hero {
-    min-height: 350px !important; }
+    height: auto;
+    width: auto;
+    padding: 2rem 0; }
     .section-mockup-hero .h1 {
       font-size: 1.5rem !important; }
     .section-mockup-hero img {
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: -100px;
-      height: 200px;
-      width: 150px; }
+      position: static;
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 2rem; }
     .section-mockup-hero .hero-content {
-      left: 1rem;
-      top: 1rem;
-      width: 90%; } }
+      position: static;
+      width: 80%;
+      margin-left: 10%; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -59,7 +59,7 @@
     height: 7rem !important;
     width: 7rem !important;
     border-radius: 50%;
-    background: conic-gradient(red 80deg, white 80deg);
+    background: conic-gradient(#5175b3 80deg, #dce3f0 80deg);
     position: relative; }
     #chris-mockup .section-mockup-priority .priority-progress::before {
       height: 84%;
