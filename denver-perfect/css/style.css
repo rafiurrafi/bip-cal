@@ -260,7 +260,6 @@ body {
   margin-bottom: 10rem;
   position: relative;
   height: 390px;
-  background-image: linear-gradient(rgba(12, 46, 104, 0.9), rgba(12, 46, 104, 0.9)), url(../img/mockup-hero.jpg);
   background-size: cover;
   background-position: center; }
   .section-mockup-hero img {
@@ -272,7 +271,7 @@ body {
   .section-mockup-hero .hero-content {
     position: absolute;
     left: 550px;
-    bottom: 8vh;
+    bottom: 4rem;
     width: 40%; }
 
 @media (min-width: 1400px) {
@@ -301,30 +300,36 @@ body {
       left: 5rem; }
     .section-mockup-hero .hero-content {
       left: 500px;
-      bottom: 5vh;
+      bottom: 1rem;
       width: 45%; } }
 @media (max-width: 991px) {
+  .section-mockup-hero {
+    height: 450px; }
+
   .section-mockup-hero img {
-    height: 420px;
-    width: 300px;
-    left: 3; }
+    height: 500px;
+    width: 370px;
+    left: 2rem; }
   .section-mockup-hero .hero-content {
-    left: 400px;
+    left: 430px;
     bottom: 2rem;
     width: 45%; } }
 @media (max-width: 768px) {
   .section-mockup-hero {
-    height: 350px; }
+    height: auto;
+    width: auto;
+    padding: 2rem 0; }
     .section-mockup-hero .h1 {
-      font-size: 1.8rem !important; }
+      font-size: 1.5rem !important; }
     .section-mockup-hero img {
-      height: 380px;
-      width: 250px;
-      left: 10px; }
+      position: static;
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 2rem; }
     .section-mockup-hero .hero-content {
-      left: 280px;
-      bottom: 0;
-      width: 50%; } }
+      position: static;
+      width: 80%;
+      margin-left: 10%; } }
 @media (max-width: 576px) {
   .section-mockup-hero {
     height: auto;

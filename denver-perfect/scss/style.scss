@@ -355,8 +355,6 @@ $color-green-1: #004037;
   margin-bottom: 10rem;
   position: relative;
   height: 390px;
-  background-image: linear-gradient(rgba(#0c2e68, 0.9), rgba(#0c2e68, 0.9)),
-    url(../img/mockup-hero.jpg);
   background-size: cover;
   background-position: center;
   img {
@@ -369,7 +367,7 @@ $color-green-1: #004037;
   .hero-content {
     position: absolute;
     left: 550px;
-    bottom: 8vh;
+    bottom: 4rem;
     width: 40%;
   }
 }
@@ -408,40 +406,62 @@ $color-green-1: #004037;
     }
     .hero-content {
       left: 500px;
-      bottom: 5vh;
+      bottom: 1rem;
       width: 45%;
     }
   }
 }
 @media (max-width: 991px) {
   .section-mockup-hero {
+    height: 450px;
+  }
+  .section-mockup-hero {
     img {
-      height: 420px;
-      width: 300px;
-      left: 3;
+      height: 500px;
+      width: 370px;
+      left: 2rem;
     }
     .hero-content {
-      left: 400px;
+      left: 430px;
       bottom: 2rem;
       width: 45%;
     }
   }
 }
 @media (max-width: 768px) {
+  // .section-mockup-hero {
+  //   height: 350px;
+  //   .h1 {
+  //     font-size: 1.8rem !important;
+  //   }
+  //   img {
+  //     height: 380px;
+  //     width: 250px;
+  //     left: 10px;
+  //   }
+  //   .hero-content {
+  //     left: 280px;
+  //     bottom: 0;
+  //     width: 50%;
+  //   }
+  // }
   .section-mockup-hero {
-    height: 350px;
+    height: auto;
+    width: auto;
+    padding: 2rem 0;
     .h1 {
-      font-size: 1.8rem !important;
+      font-size: 1.5rem !important;
     }
     img {
-      height: 380px;
-      width: 250px;
-      left: 10px;
+      position: static;
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 2rem;
     }
     .hero-content {
-      left: 280px;
-      bottom: 0;
-      width: 50%;
+      position: static;
+      width: 80%;
+      margin-left: 10%;
     }
   }
 }
