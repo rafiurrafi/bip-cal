@@ -115,14 +115,12 @@
 }
 @media (min-width: 1400px) {
   #chris-mockup {
+    .container {
+      min-width: 1320px;
+    }
     .section-mockup-about {
-      // .breaking-text {
-      //   opacity: 0.3;
-      //   left: -17%;
-      //   top: 170px;
-      // }
       .about-img {
-        height: 400px;
+        min-height: 600px;
       }
     }
     .section-mockup-gallery {
@@ -140,14 +138,40 @@
         height: 350px;
       }
     }
+    .small {
+      font-size: 1rem !important;
+    }
   }
 }
 @media (min-width: 1920px) {
   #chris-mockup {
+    .container {
+      min-width: 1700px;
+    }
+    .section-mockup-about {
+      .about-img {
+        min-height: 750px;
+      }
+    }
     .section-mockup-gallery {
       .gallery-text {
         width: 70%;
       }
+      .gallery-1 {
+        height: 650px;
+      }
+      .gallery-2 {
+        height: 550px;
+      }
+      .gallery-3 {
+        height: 550px;
+      }
+      .gallery-4 {
+        height: 600px;
+      }
+    }
+    .small {
+      font-size: 1.25rem !important;
     }
   }
 }

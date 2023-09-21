@@ -272,9 +272,26 @@ body {
   .section-mockup-hero .hero-content {
     position: absolute;
     left: 550px;
-    bottom: 10vh;
+    bottom: 8vh;
     width: 40%; }
 
+@media (min-width: 1400px) {
+  .section-mockup-hero {
+    height: 500px; }
+    .section-mockup-hero img {
+      height: 600px;
+      width: 500px;
+      left: 8rem; }
+    .section-mockup-hero .hero-content {
+      left: 680px; } }
+@media (min-width: 1920px) {
+  .section-mockup-hero {
+    height: 650px; }
+    .section-mockup-hero img {
+      height: 780px;
+      width: 650px; }
+    .section-mockup-hero .hero-content {
+      left: 850px; } }
 @media (max-width: 1200px) {
   .section-mockup-hero {
     height: 360px; }

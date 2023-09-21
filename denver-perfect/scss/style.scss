@@ -369,8 +369,33 @@ $color-green-1: #004037;
   .hero-content {
     position: absolute;
     left: 550px;
-    bottom: 10vh;
+    bottom: 8vh;
     width: 40%;
+  }
+}
+@media (min-width: 1400px) {
+  .section-mockup-hero {
+    height: 500px;
+    img {
+      height: 600px;
+      width: 500px;
+      left: 8rem;
+    }
+    .hero-content {
+      left: 680px;
+    }
+  }
+}
+@media (min-width: 1920px) {
+  .section-mockup-hero {
+    height: 650px;
+    img {
+      height: 780px;
+      width: 650px;
+    }
+    .hero-content {
+      left: 850px;
+    }
   }
 }
 @media (max-width: 1200px) {

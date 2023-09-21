@@ -77,8 +77,10 @@
   width: 5rem; }
 
 @media (min-width: 1400px) {
+  #chris-mockup .container {
+    min-width: 1320px; }
   #chris-mockup .section-mockup-about .about-img {
-    height: 400px; }
+    min-height: 600px; }
   #chris-mockup .section-mockup-gallery {
     overflow: hidden; }
     #chris-mockup .section-mockup-gallery .gallery-1 {
@@ -88,10 +90,26 @@
     #chris-mockup .section-mockup-gallery .gallery-3 {
       height: 350px; }
     #chris-mockup .section-mockup-gallery .gallery-4 {
-      height: 350px; } }
+      height: 350px; }
+  #chris-mockup .small {
+    font-size: 1rem !important; } }
 @media (min-width: 1920px) {
+  #chris-mockup .container {
+    min-width: 1700px; }
+  #chris-mockup .section-mockup-about .about-img {
+    min-height: 750px; }
   #chris-mockup .section-mockup-gallery .gallery-text {
-    width: 70%; } }
+    width: 70%; }
+  #chris-mockup .section-mockup-gallery .gallery-1 {
+    height: 650px; }
+  #chris-mockup .section-mockup-gallery .gallery-2 {
+    height: 550px; }
+  #chris-mockup .section-mockup-gallery .gallery-3 {
+    height: 550px; }
+  #chris-mockup .section-mockup-gallery .gallery-4 {
+    height: 600px; }
+  #chris-mockup .small {
+    font-size: 1.25rem !important; } }
 @media (max-width: 1200px) {
   #chris-mockup .section-mockup-gallery {
     overflow: hidden; }
