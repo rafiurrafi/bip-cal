@@ -5,25 +5,27 @@
     .section-park-register .row > * > * {
       height: inherit; }
 
-.section-park-history img {
-  object-fit: cover; }
-.section-park-history .gallery-2-box {
-  height: 520px;
-  position: relative; }
-  .section-park-history .gallery-2-box p {
-    transform: translateY(2rem);
-    height: 130px; }
-.section-park-history .gallery-text {
-  width: 80%;
-  margin-left: 10%; }
-.section-park-history .gallery-1 {
-  height: 450px; }
-.section-park-history .gallery-2 {
-  height: 375px; }
-.section-park-history .gallery-3 {
-  height: 520px; }
-.section-park-history .gallery-4 {
-  height: 450px; }
+.section-park-history {
+  overflow: hidden; }
+  .section-park-history img {
+    object-fit: cover; }
+  .section-park-history .gallery-2-box {
+    height: 520px;
+    position: relative; }
+    .section-park-history .gallery-2-box p {
+      transform: translateY(2rem);
+      height: 130px; }
+  .section-park-history .gallery-text {
+    width: 80%;
+    margin-left: 10%; }
+  .section-park-history .gallery-1 {
+    height: 450px; }
+  .section-park-history .gallery-2 {
+    height: 375px; }
+  .section-park-history .gallery-3 {
+    height: 520px; }
+  .section-park-history .gallery-4 {
+    height: 450px; }
 
 .section-park-demography .h2 img {
   width: 40px; }

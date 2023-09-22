@@ -367,7 +367,7 @@ $color-green-1: #004037;
   .hero-content {
     position: absolute;
     left: 550px;
-    bottom: 4rem;
+    bottom: 2rem;
     width: 40%;
   }
 }
@@ -398,74 +398,20 @@ $color-green-1: #004037;
 }
 @media (max-width: 1200px) {
   .section-mockup-hero {
-    height: 360px;
+    height: 380px;
     img {
-      height: 430px;
+      height: 440px;
       width: 350px;
       left: 5rem;
     }
     .hero-content {
       left: 500px;
       bottom: 1rem;
-      width: 45%;
+      width: 50%;
     }
   }
 }
 @media (max-width: 991px) {
-  .section-mockup-hero {
-    height: 450px;
-  }
-  .section-mockup-hero {
-    img {
-      height: 500px;
-      width: 370px;
-      left: 2rem;
-    }
-    .hero-content {
-      left: 430px;
-      bottom: 2rem;
-      width: 45%;
-    }
-  }
-}
-@media (max-width: 768px) {
-  // .section-mockup-hero {
-  //   height: 350px;
-  //   .h1 {
-  //     font-size: 1.8rem !important;
-  //   }
-  //   img {
-  //     height: 380px;
-  //     width: 250px;
-  //     left: 10px;
-  //   }
-  //   .hero-content {
-  //     left: 280px;
-  //     bottom: 0;
-  //     width: 50%;
-  //   }
-  // }
-  .section-mockup-hero {
-    height: auto;
-    width: auto;
-    padding: 2rem 0;
-    .h1 {
-      font-size: 1.5rem !important;
-    }
-    img {
-      position: static;
-      width: 80%;
-      margin-left: 10%;
-      margin-bottom: 2rem;
-    }
-    .hero-content {
-      position: static;
-      width: 80%;
-      margin-left: 10%;
-    }
-  }
-}
-@media (max-width: 576px) {
   .section-mockup-hero {
     height: auto;
     width: auto;
