@@ -30,7 +30,6 @@
 .section-home-hero {
   height: 90vh;
 
-  background-image: url(../img/home-banner.png);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -51,8 +50,6 @@
   background-color: #dce3f0;
 
   .about-bg {
-    background-image: linear-gradient(rgba(#022661, 0.9), rgba(#022661, 0.9)),
-      url(../img/home-about-bg.jpg);
     height: 100%;
     width: 23vw;
     background-color: #5175b3;
@@ -123,8 +120,6 @@
   }
 }
 .section-home-resources {
-  background-image: linear-gradient(rgba(#023c33, 0.9), rgba(#023c33, 0.9)),
-    url(../img/resource-bg.jpg);
   img {
     width: 3.5rem;
   }

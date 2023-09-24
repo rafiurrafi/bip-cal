@@ -103,6 +103,8 @@
 @media (max-width: 575px) {
   .section-park-history .gallery-1 {
     height: 350px; }
+  .section-park-history .gallery-3 {
+    height: auto; }
   .section-park-history .gallery-text {
     width: 96%;
     margin-left: 2%; }

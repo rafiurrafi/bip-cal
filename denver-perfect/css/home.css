@@ -26,7 +26,6 @@
 
 .section-home-hero {
   height: 90vh;
-  background-image: url(../img/home-banner.png);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -43,7 +42,6 @@
   width: 100%;
   background-color: #dce3f0; }
   .section-home-about .about-bg {
-    background-image: linear-gradient(rgba(2, 38, 97, 0.9), rgba(2, 38, 97, 0.9)), url(../img/home-about-bg.jpg);
     height: 100%;
     width: 23vw;
     background-color: #5175b3;
@@ -89,18 +87,16 @@
   .section-home-events .home-event-media div .event-btn {
     border-top: 5px solid #cea55d; }
 
-.section-home-resources {
-  background-image: linear-gradient(rgba(2, 60, 51, 0.9), rgba(2, 60, 51, 0.9)), url(../img/resource-bg.jpg); }
-  .section-home-resources img {
-    width: 3.5rem; }
-  .section-home-resources .box-triangle {
-    height: 6rem;
-    width: 6rem;
-    right: -3rem;
-    bottom: -3rem;
-    transform: rotate(-45deg); }
-    .section-home-resources .box-triangle i.fa {
-      transform: translate(40px, 6px) rotate(45deg); }
+.section-home-resources img {
+  width: 3.5rem; }
+.section-home-resources .box-triangle {
+  height: 6rem;
+  width: 6rem;
+  right: -3rem;
+  bottom: -3rem;
+  transform: rotate(-45deg); }
+  .section-home-resources .box-triangle i.fa {
+    transform: translate(40px, 6px) rotate(45deg); }
 
 @media (max-width: 1200px) {
   .section-home-hero .hero-text {
