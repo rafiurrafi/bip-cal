@@ -1,4 +1,7 @@
 // Reusable style
+p {
+  margin-bottom: 0 !important;
+}
 .p-y-gen {
   padding: 6rem 0;
 }
@@ -26,6 +29,10 @@
 .btn-color {
   color: #006255;
 }
+.box-shadows {
+  -webkit-box-shadow: 6px 6px 9px 3px rgba(0, 0, 0, 0.26);
+  box-shadow: 6px 6px 9px 3px rgba(0, 0, 0, 0.26);
+}
 // page specific style
 .section-home-hero {
   height: 90vh;
@@ -37,10 +44,11 @@
   position: relative;
   .hero-text {
     width: 45%;
-    border-top: 10px solid #cea55d;
+    border-top: 1.5rem solid #cea55d;
     position: absolute;
     bottom: 10vh;
     left: 6rem;
+    padding: 1.5rem 2rem;
   }
 }
 .section-home-about {
@@ -70,6 +78,10 @@
       object-fit: cover;
     }
   }
+  .bg-white img {
+    max-width: 5.6rem;
+    margin-right: 0.8rem;
+  }
   .container {
     padding: 4rem 0;
   }
@@ -94,24 +106,27 @@
       position: relative;
       &:hover .event-subscribe,
       &:hover .event-signup-btn {
-        display: block;
+        opacity: 1;
       }
       .event-subscribe {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        display: none;
+        opacity: 0;
+        transition: opacity 0.4s ease-in;
 
         img {
           width: 3rem;
+          margin-bottom: 1rem;
         }
       }
       .event-signup-btn {
         position: absolute;
         left: 0;
-        bottom: 60px;
-        display: none;
+        bottom: 85px;
+        opacity: 0;
+        transition: opacity 0.3s;
       }
       .event-btn {
         border-top: 5px solid #cea55d;
@@ -134,9 +149,37 @@
     }
   }
 }
+.section-home-news {
+  margin-bottom: 150px;
+  margin-top: 4rem;
+}
 // Responsive home
 // page
-@media (max-width: 1400px) {
+@media (min-width: 1920px) {
+  .section-home-resources .row .col-md-6.col-xl-3 a {
+    max-width: 230px;
+  }
+  .section-home-news {
+    .news-para {
+      max-width: 500px !important;
+    }
+  }
+  .section-home-hero {
+    .hero-text {
+      width: 1000px !important;
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .section-home-hero {
+    h1 {
+      font-size: 3.5rem !important;
+    }
+    .hero-text {
+      width: 900px !important;
+      padding: 2.5rem 5rem;
+    }
+  }
 }
 @media (max-width: 1200px) {
   .section-home-hero {

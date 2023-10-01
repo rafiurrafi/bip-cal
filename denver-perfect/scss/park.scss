@@ -46,7 +46,7 @@
   .park-icons {
     border: 3px solid #dce3f0;
     & > * {
-      height: 140px;
+      height: 160px;
       width: 100%;
       border-bottom: 3px solid #dce3f0;
       display: flex;
@@ -61,7 +61,7 @@
     }
   }
   .demograph-row {
-    height: 140px;
+    height: 160px;
     border-bottom: 3px solid #cea55d;
     width: 90%;
     margin-left: 5%;
@@ -83,11 +83,18 @@
   }
 }
 .section-park-chart {
+  padding: 6rem 0;
   canvas {
     width: 100%;
   }
+  h3 {
+    min-height: 40px;
+  }
 }
 @media (min-width: 1400px) {
+  .container {
+    min-width: 1320px !important;
+  }
   .small {
     font-size: 1rem !important;
   }
@@ -109,6 +116,9 @@
   }
 }
 @media (min-width: 1920px) {
+  .container {
+    min-width: 1700px !important;
+  }
   .small {
     font-size: 1.25rem !important;
   }
@@ -122,6 +132,15 @@
     }
     .gallery-3 {
       height: 520px;
+    }
+  }
+  .section-park-demography {
+    margin-bottom: 4rem;
+    .col-lg-8 {
+      margin-top: 6rem;
+    }
+    .demograph-img {
+      height: 320px;
     }
   }
 }
@@ -182,14 +201,3 @@
   width: 100%;
 }
 // page specific design
-@media (min-width: 1400px) {
-  .container {
-    min-width: 1320px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .container {
-    min-width: 1700px;
-  }
-}

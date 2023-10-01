@@ -1,0 +1,38 @@
+:root {
+  --nv-primary-accent: #344737;
+  --nv-secondary-accent: #f5c945;
+  --nv-site-bg: #ffffff;
+  --nv-light-bg: #f4f4f4;
+  --nv-dark-bg: #211600;
+  --nv-text-color: #000000;
+  --nv-text-dark-bg: #ffffff;
+  --custom-4: #3b4f3e;
+  --custom-5: #f6fef7;
+  --custom-6: #6d6d6d;
+
+  --fs-h1: 96px;
+  --fs-h2: 48px;
+  --default-fs: 18px;
+  --fs-large-1: 30px;
+  --fs-large-2: 24px;
+  --spaceing-1: 70px;
+  --spacing-2: 90px;
+  --spacing-3: 50px;
+  --font-family-1: "Oswald", sans-serif;
+  --font-family-2: "Barlow", sans-serif;
+}
+body {
+  font-size: var(--default-fs) !important;
+  font-family: var(--font-family-2);
+  font-weight: 400;
+}
+.h1,
+.h2 {
+  font-family: var(--font-family-1);
+}
+.h1 {
+  font-size: var(--fs-h1) !important;
+}
+.h2 {
+  font-size: var(--fs-h2) !important;
+}
