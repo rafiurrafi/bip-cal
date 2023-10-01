@@ -14,7 +14,7 @@
   --default-fs: 18px;
   --fs-large-1: 36px;
   --fs-large-2: 24px;
-  --spaceing-1: 90px;
+  --spacing-1: 90px;
   --spacing-2: 70px;
   --spacing-3: 50px;
   --font-family-1: "Oswald", sans-serif;
@@ -25,8 +25,11 @@ body {
   font-family: var(--font-family-2);
   font-weight: 400; }
 
-p {
+.fs-large-1 {
   font-size: var(--fs-large-1); }
+
+.fs-large-2 {
+  font-size: var(--fs-large-2); }
 
 .h1,
 .h2 {
@@ -40,13 +43,13 @@ p {
   font-size: var(--fs-h2) !important; }
 
 .space-1 {
-  margin-bottom: var(--spaceing-1); }
+  margin-bottom: var(--spacing-1) !important; }
 
 .space-2 {
-  margin-bottom: var(--spaceing-2); }
+  margin-bottom: var(--spacing-2) !important; }
 
 .space-3 {
-  margin-bottom: var(--spaceing-3); }
+  margin-bottom: var(--spacing-3) !important; }
 
 .fs-large-1 {
   font-size: var(--fs-large-1); }

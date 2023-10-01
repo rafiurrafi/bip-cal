@@ -12,3 +12,22 @@
     .section-hero .hero-text a {
       padding-left: 55px;
       padding-right: 55px; }
+
+.section-room {
+  margin-top: 180px; }
+  .section-room .room-box-1 {
+    width: 690px; }
+  .section-room .room-box-2 {
+    display: grid;
+    grid-template-columns: 48% 1fr;
+    grid-gap: 130px; }
+    .section-room .room-box-2__img img {
+      width: 100%;
+      height: 800px;
+      object-fit: cover; }
+    .section-room .room-box-2__text {
+      width: 570px;
+      align-self: center; }
+      .section-room .room-box-2__text a {
+        padding-left: 65px;
+        padding-right: 65px; }
