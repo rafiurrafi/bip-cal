@@ -1,0 +1,17 @@
+.section-hero {
+  background-image: url(../img/hero-img.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  .hero-text {
+    width: 735px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    a {
+      padding-left: 55px;
+      padding-right: 55px;
+    }
+  }
+}

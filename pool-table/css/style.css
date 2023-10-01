@@ -12,10 +12,10 @@
   --fs-h1: 96px;
   --fs-h2: 48px;
   --default-fs: 18px;
-  --fs-large-1: 30px;
+  --fs-large-1: 36px;
   --fs-large-2: 24px;
-  --spaceing-1: 70px;
-  --spacing-2: 90px;
+  --spaceing-1: 90px;
+  --spacing-2: 70px;
   --spacing-3: 50px;
   --font-family-1: "Oswald", sans-serif;
   --font-family-2: "Barlow", sans-serif; }
@@ -25,12 +25,31 @@ body {
   font-family: var(--font-family-2);
   font-weight: 400; }
 
+p {
+  font-size: var(--fs-large-1); }
+
 .h1,
 .h2 {
-  font-family: var(--font-family-1); }
+  font-family: var(--font-family-1);
+  font-weight: 900; }
 
 .h1 {
   font-size: var(--fs-h1) !important; }
 
 .h2 {
   font-size: var(--fs-h2) !important; }
+
+.space-1 {
+  margin-bottom: var(--spaceing-1); }
+
+.space-2 {
+  margin-bottom: var(--spaceing-2); }
+
+.space-3 {
+  margin-bottom: var(--spaceing-3); }
+
+.fs-large-1 {
+  font-size: var(--fs-large-1); }
+
+.fw-semi-bold {
+  font-weight: 600; }
