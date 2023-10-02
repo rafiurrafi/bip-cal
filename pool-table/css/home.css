@@ -57,3 +57,6 @@
     top: 15%;
     left: 50%;
     transform: translateX(-50%); }
+
+.section-reviews .single-review {
+  max-width: 420px; }
