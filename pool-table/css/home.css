@@ -28,6 +28,32 @@
     .section-room .room-box-2__text {
       width: 570px;
       align-self: center; }
-      .section-room .room-box-2__text a {
-        padding-left: 65px;
-        padding-right: 65px; }
+
+.section-gallery img {
+  width: 100%; }
+.section-gallery .gallery-1,
+.section-gallery .gallery-3,
+.section-gallery .gallery-4 {
+  height: 500px; }
+.section-gallery .gallery-2 {
+  height: 400px; }
+.section-gallery .gallery-5 {
+  height: 1050px; }
+.section-gallery .gallery-first-row {
+  transform: translateY(80px); }
+
+.section-service .service-single {
+  padding: 100px 50px; }
+
+.section-discount {
+  background-image: url(../img/discount-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  position: relative; }
+  .section-discount .discount-text {
+    width: 450px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%); }

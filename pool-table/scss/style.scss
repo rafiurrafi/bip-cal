@@ -12,6 +12,7 @@
 
   --fs-h1: 96px;
   --fs-h2: 48px;
+  --fs-h3: 30px;
   --default-fs: 18px;
   --fs-large-1: 36px;
   --fs-large-2: 24px;
@@ -35,7 +36,8 @@ body {
 }
 
 .h1,
-.h2 {
+.h2,
+.h3 {
   font-family: var(--font-family-1);
   font-weight: 900;
 }
@@ -44,6 +46,9 @@ body {
 }
 .h2 {
   font-size: var(--fs-h2) !important;
+}
+.h3 {
+  font-size: var(--fs-h3) !important;
 }
 .space-1 {
   margin-bottom: var(--spacing-1) !important;
@@ -59,4 +64,12 @@ body {
 }
 .fw-semi-bold {
   font-weight: 600;
+}
+.btn-pool {
+  width: 285px;
+  text-align: center;
+  &--white {
+    background-color: white;
+    color: #000 !important;
+  }
 }
