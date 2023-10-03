@@ -88,5 +88,163 @@
     left: 50%;
     transform: translateX(-50%); }
 
-.section-reviews .single-review {
-  max-width: 420px; }
+.section-reviews {
+  padding: var(--spacing-1) 0; }
+  .section-reviews .single-review {
+    max-width: 420px; }
+
+.section-contact iframe {
+  width: 100%; }
+
+@media (max-width: 1920px) {
+  .section-hero .hero-text {
+    width: 650px; }
+
+  .section-reviews .single-review {
+    max-width: 350px; } }
+@media (max-width: 1400px) {
+  .section-hero .hero-text {
+    left: 40%; }
+
+  .section-room {
+    margin-top: 150px; }
+    .section-room .room-box-2 {
+      grid-gap: 80px; }
+      .section-room .room-box-2__img img {
+        height: 700px; }
+      .section-room .room-box-2__text {
+        width: 560px; }
+
+  .section-gallery {
+    margin-top: -55px; }
+
+  .section-service {
+    transform: translateY(-50px); }
+    .section-service .btn-pool {
+      width: 240px !important; }
+
+  .section-feature .feature-text div {
+    width: 550px;
+    padding: 0 50px; } }
+@media (max-width: 1200px) {
+  .section-hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/hero-img.jpg); }
+    .section-hero .hero-text {
+      width: 730px;
+      right: 5% !important;
+      left: auto !important;
+      top: 15%; }
+
+  .section-room {
+    margin-top: 120px; }
+    .section-room .room-box-2 {
+      grid-template-columns: 55% 1fr;
+      grid-gap: 60px; }
+      .section-room .room-box-2__text {
+        width: 100%; }
+
+  .section-feature .feature-text div {
+    width: 500px; } }
+@media (max-width: 991px) {
+  .section-room {
+    margin-top: 120px; }
+    .section-room .room-box-1 {
+      width: 100%; }
+    .section-room .room-box-2 {
+      display: block; }
+      .section-room .room-box-2__text {
+        margin-top: var(--spacing-2);
+        margin-bottom: var(--spacing-2);
+        width: 720px;
+        margin-left: auto;
+        margin-right: auto; }
+
+  .section-gallery {
+    padding: 0;
+    margin-top: 125px;
+    background-color: white !important;
+    padding-bottom: var(--spacing-2); }
+    .section-gallery .gallery-1,
+    .section-gallery .gallery-3,
+    .section-gallery .gallery-4,
+    .section-gallery .gallery-2,
+    .section-gallery .gallery-5 {
+      height: auto; }
+    .section-gallery .gallery-first-row {
+      transform: translateY(0px); }
+    .section-gallery .gallery-buttons {
+      margin-top: var(--spacing-2); }
+
+  .section-service {
+    padding-top: 50px;
+    transform: translateY(0px);
+    z-index: 1; }
+    .section-service .service-single {
+      padding: 80px 50px; }
+
+  .section-feature {
+    margin-top: 120px; }
+    .section-feature .feature__left {
+      margin-bottom: 90px;
+      flex-direction: column;
+      width: 720px;
+      margin-left: auto;
+      margin-right: auto; }
+      .section-feature .feature__left:nth-child(3), .section-feature .feature__left:nth-child(4) {
+        background-color: #fff !important; }
+      .section-feature .feature__left h2.space-2 {
+        margin-bottom: 30px !important; }
+    .section-feature .feature-text {
+      width: 100%;
+      padding-top: var(--spacing-3); }
+      .section-feature .feature-text div {
+        width: 100%;
+        padding: 0; }
+    .section-feature .feature-img {
+      width: 100%; }
+      .section-feature .feature-img img {
+        height: auto; }
+    .section-feature .feature-first {
+      margin-top: 0px; }
+      .section-feature .feature-first .feature-text {
+        margin-top: 0px; }
+    .section-feature .feature-third {
+      padding-top: 0px;
+      margin-top: 0px; } }
+@media (max-width: 768px) {
+  .section-hero .hero-text {
+    width: 90% !important;
+    top: 50%;
+    left: 50% !important;
+    right: auto !important;
+    transform: translate(-50%, -50%); }
+
+  .section-room {
+    margin-top: 120px; }
+    .section-room .room-box-2__text {
+      width: 540px; }
+
+  .section-gallery {
+    padding: 0;
+    margin-top: 95px; }
+
+  .section-feature .feature__left {
+    margin-bottom: 65px;
+    width: 540px; }
+
+  .section-discount {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/discount-bg.jpg); }
+    .section-discount .discount-text {
+      width: 80%;
+      margin-left: 10%; } }
+@media (max-width: 576px) {
+  .section-room {
+    margin-top: 120px; }
+    .section-room .room-box-2__text {
+      width: 100%; }
+
+  .section-feature .feature__left {
+    width: 100%; }
+
+  .section-discount .btn-pool {
+    width: 200px; } }

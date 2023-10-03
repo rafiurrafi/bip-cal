@@ -68,3 +68,41 @@ body {
   .btn-pool--white {
     background-color: white;
     color: #000 !important; }
+
+@media (max-width: 1920px) {
+  :root {
+    --fs-h1: 90px;
+    --spacing-1: 80px;
+    --spacing-2: 65px;
+    --spacing-3: 55px; } }
+@media (max-width: 1400px) {
+  :root {
+    --fs-h2: 40px;
+    --fs-h3: 25px; } }
+@media (max-width: 1200px) {
+  :root {
+    --fs-h1: 75px;
+    --fs-h2: 32px;
+    --fs-large-1: 30px;
+    --spacing-1: 70px; } }
+@media (max-width: 991px) {
+  :root {
+    --fs-h1: 50px;
+    --fs-large-1: 25px;
+    --spacing-2: 40px; }
+
+  .btn-pool {
+    width: 250px; } }
+@media (max-width: 768px) {
+  :root {
+    --fs-h1: 40px;
+    --default-fs: 16px;
+    --fs-large-1: 22px;
+    --spacing-1: 60px; }
+
+  .btn-pool {
+    width: 230px; } }
+@media (max-width: 576px) {
+  :root {
+    --fs-h1: 30px;
+    --fs-large-1: 20px; } }
