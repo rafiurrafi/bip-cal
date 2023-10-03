@@ -35,11 +35,11 @@
       align-self: center; }
 
 .section-gallery {
-  padding: 252px 0 270px 0;
-  margin-top: -125px; }
+  padding: 150px 0; }
   .section-gallery img {
     width: 100%; }
-  .section-gallery .gallery-1,
+  .section-gallery .gallery-1 {
+    height: 585px; }
   .section-gallery .gallery-3,
   .section-gallery .gallery-4 {
     height: 500px; }
@@ -47,34 +47,25 @@
     height: 400px; }
   .section-gallery .gallery-5 {
     height: 1050px; }
-  .section-gallery .gallery-first-row {
-    transform: translateY(80px); }
   .section-gallery .gallery-buttons {
     margin-top: var(--spacing-2); }
 
-.section-feature .feature-text {
-  width: 50vw; }
-  .section-feature .feature-text div {
-    width: 570px; }
-.section-feature .feature-img {
-  width: 50vw;
-  position: relative;
-  z-index: 20; }
-  .section-feature .feature-img img {
-    width: 100%;
-    height: 790px;
-    object-fit: cover; }
-.section-feature .feature-first {
-  margin-top: -120px; }
-  .section-feature .feature-first .feature-text {
-    margin-top: 120px; }
-.section-feature .feature-third {
-  padding-top: 120px;
-  margin-top: -120px; }
+.section-feature {
+  margin-bottom: 120px; }
+  .section-feature .feature-text {
+    width: 50vw; }
+    .section-feature .feature-text div {
+      width: 570px; }
+  .section-feature .feature-img {
+    width: 50vw;
+    position: relative;
+    z-index: 20; }
+    .section-feature .feature-img img {
+      width: 100%;
+      height: 790px;
+      object-fit: cover; }
 
 .section-service {
-  padding-top: 250px;
-  transform: translateY(-120px);
   position: relative;
   z-index: 10; }
   .section-service .service-single {
@@ -123,8 +114,7 @@
         width: 560px; }
 
   .section-gallery {
-    margin-top: -55px;
-    padding: 190px 0 270px 0; }
+    padding: 150px 0 150px 0; }
 
   .section-service {
     transform: translateY(-50px); }
@@ -183,6 +173,8 @@
       transform: translateY(0px); }
     .section-gallery .gallery-buttons {
       margin-top: var(--spacing-2); }
+    .section-gallery a:first-child {
+      background-color: #f4f4f4 !important; }
 
   .section-service {
     padding-top: 50px;
