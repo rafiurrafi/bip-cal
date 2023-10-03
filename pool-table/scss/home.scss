@@ -1,7 +1,17 @@
+.btn-height {
+  height: 64px;
+  line-height: 64px;
+  vertical-align: middle;
+}
 .section-hero {
-  background-image: url(../img/hero-img.jpg);
+  background-image: linear-gradient(
+      to left,
+      rgba(#fff, 1) 0%,
+      rgba(#fff, 0.1) 100%
+    ),
+    url(../img/hero-img.jpg);
   height: 100vh;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   position: relative;
   .hero-text {
@@ -149,6 +159,9 @@
   }
   .section-room {
     margin-top: 150px;
+    .room-box-1 {
+      width: 500px;
+    }
     .room-box-2 {
       grid-gap: 80px;
       &__img {
@@ -163,6 +176,7 @@
   }
   .section-gallery {
     margin-top: -55px;
+    padding: 190px 0 270px 0;
   }
   .section-service {
     transform: translateY(-50px);
@@ -182,8 +196,6 @@
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1200px) {
   .section-hero {
-    background-image: linear-gradient(rgba(#fff, 0.5), rgba(#fff, 0.5)),
-      url(../img/hero-img.jpg);
     .hero-text {
       width: 730px;
       right: 5% !important;
@@ -212,6 +224,9 @@
 }
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991px) {
+  .section-hero {
+    max-height: 640px;
+  }
   .section-room {
     margin-top: 120px;
     .room-box-1 {
@@ -302,12 +317,23 @@
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 768px) {
   .section-hero {
+    background-position: top left 0%;
+    background-image: linear-gradient(
+        to right,
+        rgba(#fff, 1) 0%,
+        rgba(#fff, 0.1) 100%
+      ),
+      url(../img/hero-img.jpg);
+    background-repeat: no-repeat;
     .hero-text {
       width: 90% !important;
       top: 50%;
       left: 50% !important;
       right: auto !important;
       transform: translate(-50%, -50%);
+      p {
+        max-width: 370px;
+      }
     }
   }
   .section-room {
@@ -340,6 +366,20 @@
 }
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 576px) {
+  .section-hero {
+    background-position: top left 15%;
+    background-image: linear-gradient(
+        to right,
+        rgba(#fff, 1) 0%,
+        rgba(#fff, 0.3) 100%
+      ),
+      url(../img/hero-img.jpg);
+  }
+  .section-room .container,
+  .room-box-2__text,
+  .feature-text {
+    padding: 0 1.25rem !important;
+  }
   .section-room {
     margin-top: 120px;
     .room-box-2 {
@@ -351,6 +391,9 @@
   .section-feature {
     .feature__left {
       width: 100%;
+      .h2.space-2 {
+        margin-top: 30px !important;
+      }
     }
   }
   .section-discount {

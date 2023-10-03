@@ -77,10 +77,12 @@ body {
     --spacing-3: 55px; } }
 @media (max-width: 1400px) {
   :root {
+    --fs-h1: 72px;
     --fs-h2: 40px;
     --fs-h3: 25px;
     --fs-large-1: 25px;
-    --fs-large-2: 20px; } }
+    --fs-large-2: 20px;
+    --spacing-1: 60px; } }
 @media (max-width: 1200px) {
   :root {
     --fs-h1: 75px;
@@ -106,5 +108,5 @@ body {
     width: 230px; } }
 @media (max-width: 576px) {
   :root {
-    --fs-h1: 30px;
+    --fs-h1: 40px;
     --fs-large-1: 20px; } }

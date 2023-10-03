@@ -90,13 +90,13 @@ body {
 // X-Large devices (large desktops, less than 1400px)
 @media (max-width: 1400px) {
   :root {
-    // --fs-h1: 75px;
+    --fs-h1: 72px;
     --fs-h2: 40px;
     --fs-h3: 25px;
     // --default-fs: 18px;
     --fs-large-1: 25px;
     --fs-large-2: 20px;
-    // --spacing-1: 70px;
+    --spacing-1: 60px;
     // --spacing-2: 70px;
     // --spacing-3: 50px;
   }
@@ -153,7 +153,7 @@ body {
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 576px) {
   :root {
-    --fs-h1: 30px;
+    --fs-h1: 40px;
     // --fs-h2: 48px;
     // --fs-h3: 30px;
     // --default-fs: 18px;
