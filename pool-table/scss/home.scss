@@ -355,12 +355,12 @@
     }
   }
   .section-discount {
-    background-image: linear-gradient(rgba(#fff, 0.5), rgba(#fff, 0.5)),
-      url(../img/discount-bg.jpg);
+    background-image: url(../img/discount-bg.jpg);
 
     .discount-text {
-      width: 80%;
-      margin-left: 10%;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
@@ -394,6 +394,11 @@
       .h2.space-2 {
         margin-top: 30px !important;
       }
+    }
+  }
+  .section-service {
+    .service-single {
+      padding: 40px 30px;
     }
   }
   .section-discount {

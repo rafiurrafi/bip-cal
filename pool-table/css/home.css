@@ -248,10 +248,11 @@
     width: 540px; }
 
   .section-discount {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/discount-bg.jpg); }
+    background-image: url(../img/discount-bg.jpg); }
     .section-discount .discount-text {
-      width: 80%;
-      margin-left: 10%; } }
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto; } }
 @media (max-width: 576px) {
   .section-hero {
     background-position: top left 15%;
@@ -271,6 +272,9 @@
     width: 100%; }
     .section-feature .feature__left .h2.space-2 {
       margin-top: 30px !important; }
+
+  .section-service .service-single {
+    padding: 40px 30px; }
 
   .section-discount .btn-pool {
     width: 200px; } }
