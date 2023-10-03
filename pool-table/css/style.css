@@ -78,11 +78,14 @@ body {
 @media (max-width: 1400px) {
   :root {
     --fs-h2: 40px;
-    --fs-h3: 25px; } }
+    --fs-h3: 25px;
+    --fs-large-1: 25px;
+    --fs-large-2: 20px; } }
 @media (max-width: 1200px) {
   :root {
     --fs-h1: 75px;
     --fs-h2: 32px;
+    --default-fs: 16px;
     --fs-large-1: 30px;
     --spacing-1: 70px; } }
 @media (max-width: 991px) {
@@ -96,7 +99,6 @@ body {
 @media (max-width: 768px) {
   :root {
     --fs-h1: 40px;
-    --default-fs: 16px;
     --fs-large-1: 22px;
     --spacing-1: 60px; }
 
