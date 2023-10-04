@@ -1,0 +1,82 @@
+.section-hero--football {
+  padding: 90px 0 200px 0; }
+  .section-hero--football .bg-white {
+    height: 740px;
+    width: 680px; }
+  .section-hero--football .hero-text {
+    width: 460px; }
+  .section-hero--football .hero-table-container {
+    position: relative; }
+    .section-hero--football .hero-table-container img {
+      width: 800px;
+      position: absolute;
+      bottom: -10%;
+      left: 0%; }
+
+@media (max-width: 1920px) {
+  .section-hero--football {
+    padding: 80px 0 170px 0; }
+    .section-hero--football .bg-white {
+      height: 600px;
+      width: 500px; }
+    .section-hero--football .hero-text {
+      width: 400px; }
+    .section-hero--football .hero-table-container img {
+      width: 650px;
+      bottom: -10%;
+      left: -6%; } }
+@media (max-width: 1400px) {
+  .section-hero--football {
+    padding: 80px 0 170px 0; }
+    .section-hero--football .bg-white {
+      height: 600px;
+      width: 500px; }
+    .section-hero--football .hero-text {
+      width: 400px; }
+    .section-hero--football .hero-table-container img {
+      width: 650px;
+      bottom: -10%;
+      left: -6%; } }
+@media (max-width: 1200px) {
+  .section-hero--football .hero-table-container {
+    margin-top: 100px; }
+    .section-hero--football .hero-table-container img {
+      left: 27%; } }
+@media (max-width: 991px) {
+  .section-hero--football .hero-table-container {
+    margin-top: 100px; }
+    .section-hero--football .hero-table-container img {
+      left: 0%; } }
+@media (max-width: 768px) {
+  .section-hero--football .bg-white {
+    height: 550px;
+    width: 400px; }
+  .section-hero--football .hero-table-container {
+    margin-top: 100px; }
+    .section-hero--football .hero-table-container img {
+      width: 550px;
+      left: -7%; } }
+@media (max-width: 576px) {
+  .section-hero--football .hero-text {
+    width: 90%;
+    margin-left: 5%; }
+  .section-hero--football .bg-white {
+    height: 350px;
+    width: 90%;
+    margin-left: 5% !important;
+    position: static; }
+  .section-hero--football .hero-table-container {
+    margin-top: 100px; }
+    .section-hero--football .hero-table-container img {
+      width: 80%;
+      margin-left: 10%; } }
+@media (max-width: 420px) {
+  .section-hero--football .bg-white {
+    height: 300px; }
+  .section-hero--football .hero-table-container img {
+    width: 80%;
+    margin-left: 10%; } }
+iframe {
+  display: none; }
+
+/*# sourceMappingURL=football.css.map */

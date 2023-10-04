@@ -4,16 +4,14 @@
   vertical-align: middle; }
 
 .section-hero {
-  background-image: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0.1) 100%), url(../img/hero-img.jpg);
+  background-image: linear-gradient(to left, white 10%, rgba(255, 255, 255, 0.1) 80%), url(../img/hero-img.jpg);
   height: 100vh;
   background-position: top;
   background-size: cover;
   position: relative; }
   .section-hero .hero-text {
-    width: 735px;
-    position: absolute;
-    top: 20%;
-    left: 50%; }
+    max-width: 735px;
+    margin-right: 5%; }
     .section-hero .hero-text a {
       padding-left: 55px;
       padding-right: 55px; }
@@ -94,7 +92,7 @@
 
 @media (max-width: 1920px) {
   .section-hero .hero-text {
-    width: 650px; }
+    width: 630px; }
 
   .section-reviews .single-review {
     max-width: 350px; } }
@@ -118,6 +116,8 @@
 
   .section-service {
     transform: translateY(-50px); }
+    .section-service .service-single {
+      padding: 60px 40px; }
     .section-service .btn-pool {
       width: 240px !important; }
 
@@ -144,6 +144,8 @@
 @media (max-width: 991px) {
   .section-hero {
     max-height: 640px; }
+    .section-hero .hero-text {
+      max-width: 500px; }
 
   .section-room {
     margin-top: 120px; }
@@ -180,8 +182,6 @@
     padding-top: 50px;
     transform: translateY(0px);
     z-index: 1; }
-    .section-service .service-single {
-      padding: 80px 50px; }
 
   .section-feature {
     margin-top: 120px; }
@@ -218,11 +218,9 @@
     background-image: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0.1) 100%), url(../img/hero-img.jpg);
     background-repeat: no-repeat; }
     .section-hero .hero-text {
-      width: 90% !important;
-      top: 50%;
-      left: 50% !important;
-      right: auto !important;
-      transform: translate(-50%, -50%); }
+      max-width: 400px;
+      margin-right: auto;
+      margin-left: 2%; }
       .section-hero .hero-text p {
         max-width: 370px; }
 
