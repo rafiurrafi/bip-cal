@@ -1,5 +1,5 @@
-$primary: red;
-$secondary: green;
+$primary: #a2826b;
+$secondary: #16423c;
 @import "./functions";
 @import "./variables";
 
@@ -11,7 +11,26 @@ $grid-breakpoints: map-merge(
   $map2: $grid-breakpnts,
 );
 @import "./bootstrap.scss";
-
+@import "./custom/font";
 html {
-  font-size: 78.5% !important;
+  font-size: 56% !important;
+}
+body {
+  font-size: 2rem !important;
+  font-family: garamond !important;
+  font-weight: 400;
+}
+.nav-link {
+  font-family: futura !important;
+  font-weight: 500 !important;
+}
+@media (max-width: 1399.98px) {
+}
+@media (max-width: 1199.98px) {
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 767.98px) {
+}
+@media (max-width: 575.98px) {
 }
