@@ -1,0 +1,9 @@
+@import "./bootstrap.scss";
+@font-face {
+  font-family: garmond;
+  src: url(../fonts/AGaramond-Regular.otf);
+  font-weight: 400;
+}
+:root {
+  --bs-body-font-family: garmond;
+}
