@@ -28,6 +28,7 @@ body {
   font-family: futura !important;
   font-weight: 500 !important;
 }
+
 img {
   height: 100%;
   width: 100%;
@@ -36,7 +37,20 @@ img {
 .btn {
   font-size: 2rem !important;
 }
-
+.gar-semi-bold {
+  font-family: garamondSemiBoldItalic;
+}
+.fut-medium {
+  font-family: futura;
+}
+.w-90 {
+  width: 90%;
+}
+h2 {
+  font-family: futura;
+}
+.simple-link {
+}
 // particular page design home
 .section-hero,
 .hero-right {
@@ -48,12 +62,30 @@ img {
 .hero-right {
   flex: 1;
 }
-.section-info {
-  .h2 {
-    font-family: garamondSemiBoldItalic;
+.section-gallery {
+  background-color: #f6f1ee;
+  img {
+    height: 60rem;
   }
 }
-
+.section-process {
+  padding: 12rem 0;
+  .process {
+    border-top: 2px solid #f1f4f4;
+  }
+  .process-title {
+    flex: 0 0 13rem;
+  }
+  .process-desc {
+    flex: 1;
+  }
+}
+.section-contact {
+  background-image: url(../img/contact-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 130vh;
+}
 @media (max-width: 1399.98px) {
 }
 @media (max-width: 1199.98px) {
