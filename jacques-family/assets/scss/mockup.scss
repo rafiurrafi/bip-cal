@@ -1,0 +1,27 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+}
+.section-hero {
+  height: 100vh;
+  background-image: url(../img/mockup-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  .hero-content {
+    margin-top: 10rem;
+  }
+  a {
+    font-size: 3rem;
+  }
+  //   .hero-img {
+  //     position: absolute;
+  //     width: 100%;
+  //     height: 100%;
+  //     z-index: -1;
+  //     top: 0;
+  //     left: 0;
+  //   }
+}

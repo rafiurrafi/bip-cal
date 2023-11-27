@@ -11706,6 +11706,9 @@ img {
 h2, .h2 {
   font-family: futura; }
 
+a i.fa {
+  transform: translateY(0.5rem); }
+
 .section-gallery {
   background-color: #f6f1ee; }
   .section-gallery img {

@@ -1,0 +1,16 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%; }
+
+.section-hero {
+  height: 100vh;
+  background-image: url(../img/mockup-hero.jpg);
+  background-size: cover;
+  background-position: center; }
+  .section-hero .hero-content {
+    margin-top: 10rem; }
+  .section-hero a {
+    font-size: 3rem; }
