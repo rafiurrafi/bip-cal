@@ -11706,16 +11706,6 @@ img {
 h2, .h2 {
   font-family: futura; }
 
-.section-hero,
-.hero-right {
-  height: 70rem; }
-
-.hero-left {
-  flex: 0 0 50%; }
-
-.hero-right {
-  flex: 1; }
-
 .section-gallery {
   background-color: #f6f1ee; }
   .section-gallery img {
@@ -11735,8 +11725,9 @@ h2, .h2 {
   background-size: cover;
   background-position: center;
   height: 130vh; }
-  .section-contact a {
-    width: 20rem; }
+  .section-contact .row {
+    margin-top: 20rem;
+    padding-right: 10rem; }
   .section-contact .contact-form {
     border-radius: 2rem;
     background-color: #f8f5f2; }
@@ -11746,3 +11737,15 @@ h2, .h2 {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 1.5rem; }
+    .section-contact .contact-form a {
+      width: 20rem; }
+
+.footer-arrow {
+  transform: translateY(2px); }
+
+@media (max-width: 1799.98px) {
+  html {
+    font-size: 55.8% !important; } }
+@media (max-width: 1399.98px) {
+  html {
+    font-size: 52% !important; } }
