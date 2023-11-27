@@ -1,5 +1,6 @@
 $primary: #a2826b;
 $secondary: #16423c;
+$custom-body-font-size: 2rem;
 @import "./functions";
 @import "./variables";
 
@@ -16,9 +17,12 @@ html {
   font-size: 62.5% !important;
 }
 body {
-  font-size: 2rem !important;
+  font-size: $custom-body-font-size !important;
   font-family: garamond !important;
   font-weight: 400;
+}
+p {
+  font-size: $custom-body-font-size !important;
 }
 .navbar-logo {
   max-width: 17rem;
@@ -85,6 +89,21 @@ h2 {
   background-size: cover;
   background-position: center;
   height: 130vh;
+  a {
+    width: 20rem;
+  }
+  .contact-form {
+    border-radius: 2rem;
+    background-color: #f8f5f2;
+    .form-control {
+      font-size: $custom-body-font-size;
+    }
+    &-group {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1.5rem;
+    }
+  }
 }
 @media (max-width: 1399.98px) {
 }

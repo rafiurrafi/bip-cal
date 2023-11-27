@@ -11675,6 +11675,9 @@ body {
   font-family: garamond !important;
   font-weight: 400; }
 
+p {
+  font-size: 2rem !important; }
+
 .navbar-logo {
   max-width: 17rem; }
 
@@ -11732,3 +11735,14 @@ h2, .h2 {
   background-size: cover;
   background-position: center;
   height: 130vh; }
+  .section-contact a {
+    width: 20rem; }
+  .section-contact .contact-form {
+    border-radius: 2rem;
+    background-color: #f8f5f2; }
+    .section-contact .contact-form .form-control {
+      font-size: 2rem; }
+    .section-contact .contact-form-group {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1.5rem; }
