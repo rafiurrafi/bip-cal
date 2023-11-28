@@ -11709,10 +11709,13 @@ h2, .h2 {
 a i.fa {
   transform: translateY(0.5rem); }
 
-.section-gallery {
+.btn {
+  border-radius: 0 !important; }
+
+.section-gallery-light {
   background-color: #f6f1ee; }
-  .section-gallery img {
-    height: 60rem; }
+.section-gallery img {
+  height: 60rem; }
 
 .section-process {
   padding: 12rem 0; }

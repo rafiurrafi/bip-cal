@@ -14,3 +14,10 @@
     margin-top: 10rem; }
   .section-hero a {
     font-size: 3rem; }
+
+.section-gallery .row {
+  background-color: #f8f5f2;
+  border-radius: 2rem;
+  overflow: hidden; }
+  .section-gallery .row img {
+    transform: translateX(2.5rem); }

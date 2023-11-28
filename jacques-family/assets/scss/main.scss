@@ -56,10 +56,15 @@ h2 {
 a i.fa {
   transform: translateY(0.5rem);
 }
+.btn {
+  border-radius: 0 !important;
+}
 // particular page design home
 
 .section-gallery {
-  background-color: #f6f1ee;
+  &-light {
+    background-color: #f6f1ee;
+  }
   img {
     height: 60rem;
   }

@@ -25,3 +25,13 @@
   //     left: 0;
   //   }
 }
+.section-gallery {
+  .row {
+    background-color: #f8f5f2;
+    border-radius: 2rem;
+    overflow: hidden;
+    img {
+      transform: translateX(2.5rem);
+    }
+  }
+}
