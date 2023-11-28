@@ -21,3 +21,7 @@
   overflow: hidden; }
   .section-gallery .row img {
     transform: translateX(2.5rem); }
+
+.section-about img {
+  height: 80rem;
+  transform: translateX(-2rem); }
