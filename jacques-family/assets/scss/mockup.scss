@@ -40,3 +40,16 @@
     transform: translateX(-2rem);
   }
 }
+.section-precise {
+  .precise {
+    &-img {
+      img {
+        width: 80%;
+        border-radius: 2rem;
+      }
+    }
+    &-text {
+      width: 75%;
+    }
+  }
+}
