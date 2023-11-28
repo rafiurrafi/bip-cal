@@ -11678,6 +11678,12 @@ body {
 p {
   font-size: 2rem !important; }
 
+.bg-primary-400 {
+  background-color: #f8f5f2; }
+
+.rounded-7 {
+  border-radius: 1.5rem; }
+
 .navbar-logo {
   max-width: 17rem; }
 
