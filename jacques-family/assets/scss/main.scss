@@ -65,6 +65,21 @@ a i.fa {
 .btn {
   border-radius: 0 !important;
 }
+.contact-form {
+  border-radius: 2rem;
+  background-color: #f8f5f2;
+  .form-control {
+    font-size: $custom-body-font-size !important;
+  }
+  &-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+  }
+  a {
+    width: 20rem;
+  }
+}
 // particular page design home
 
 .section-gallery {
@@ -87,31 +102,7 @@ a i.fa {
     flex: 1;
   }
 }
-.section-contact {
-  background-image: url(../img/contact-bg.png);
-  background-size: cover;
-  background-position: center;
-  height: 130vh;
-  .row {
-    margin-top: 20rem;
-    padding-right: 10rem;
-  }
-  .contact-form {
-    border-radius: 2rem;
-    background-color: #f8f5f2;
-    .form-control {
-      font-size: $custom-body-font-size;
-    }
-    &-group {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 1.5rem;
-    }
-    a {
-      width: 20rem;
-    }
-  }
-}
+
 .footer {
   &-arrow {
     transform: translateY(2px);
@@ -128,10 +119,38 @@ a i.fa {
   }
 }
 @media (max-width: 1199.98px) {
+  html {
+    font-size: 52% !important;
+  }
+  .h1 {
+    font-size: 4.5rem !important;
+  }
+  .h2 {
+    font-size: 3.5rem !important;
+  }
+  .h3 {
+    font-size: 2.5rem !important;
+  }
+  // body,
+  // p,
+  // .btn {
+  //   font-size: 2rem !important;
+  // }
+  // .section-process {
+  //   padding: 12rem 0;
+
+  //   .process-title {
+  //     flex: 0 0 15rem;
+  //   }
+  // }
 }
 @media (max-width: 991.98px) {
 }
 @media (max-width: 767.98px) {
 }
 @media (max-width: 575.98px) {
+  .footer-logo {
+    width: 50%;
+    margin-bottom: 10rem;
+  }
 }

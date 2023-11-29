@@ -1,9 +1,66 @@
 .section-hero,
 .hero-right {
-  height: 70rem; }
+  height: 110rem; }
 
 .hero-left {
   flex: 0 0 50%; }
 
 .hero-right {
   flex: 1; }
+
+.section-houses {
+  position: relative; }
+  .section-houses .houses-img-1 {
+    height: 87rem; }
+  .section-houses .houses-nav-btn {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    border: 3px solid #a4a7a6;
+    color: #a4a7a6;
+    transform: translate(40%, 30%); }
+    .section-houses .houses-nav-btn.faded {
+      opacity: 0.5; }
+  .section-houses .houses-img-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40rem;
+    height: 62rem; }
+
+.section-contact {
+  background-image: url(../img/contact-bg.png);
+  background-size: cover;
+  background-position: -100px 0;
+  background-repeat: no-repeat;
+  height: 130rem; }
+  .section-contact .row {
+    margin-top: 20rem;
+    padding-right: 10rem; }
+
+@media (max-width: 1199.98px) {
+  .section-contact {
+    height: 150rem; }
+    .section-contact .row {
+      margin-top: 10rem; } }
+@media (max-width: 991.98px) {
+  .section-hero {
+    height: auto; }
+
+  .hero-left {
+    height: 85rem; }
+
+  .hero-right {
+    height: 70rem; }
+
+  .section-contact {
+    background-position: -200px 0; }
+    .section-contact .row {
+      margin-top: 20rem;
+      padding-right: 5rem; } }
+@media (max-width: 767.98px) {
+  .section-contact {
+    height: 130rem; }
+    .section-contact .row {
+      margin-top: 20rem;
+      padding-right: 0rem; } }

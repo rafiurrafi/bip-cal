@@ -16,7 +16,7 @@
     <title>Jacques Family</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white mb-1">
       <div class="container">
         <img
           src="assets/img/logo.png"
@@ -77,7 +77,7 @@
       </div>
     </nav>
     <section class="section-hero px-6 bg-gray">
-      <div class="d-flex">
+      <div class="d-lg-flex">
         <div
           class="hero-left bg-secondary text-white d-flex align-items-center justify-content-center"
         >
@@ -99,12 +99,14 @@
               your custom home project, you're choosing a partner dedicated to
               making your dream home a reality.
             </p>
-            <a href="#" class="btn bg-white px-5 py-2 text-uppercase"
+            <a
+              href="#"
+              class="btn bg-white px-5 py-2 text-uppercase text-secondary"
               >Get a quote</a
             >
           </div>
         </div>
-        <div class="hero-right">
+        <div class="hero-right order-md-1">
           <img
             src="assets/img/home-hero.png"
             alt="Northern Colorado Custom Home"
@@ -112,10 +114,10 @@
         </div>
       </div>
     </section>
-    <section class="section-info py-8">
+    <section class="section-info py-12">
       <div class="container">
-        <div class="row gx-10">
-          <div class="col-sm-6">
+        <div class="row gx-lg-10 gy-4 gy-lg-0">
+          <div class="col-lg-6">
             <h2 class="h2 gar-semi-bold">
               <i>
                 Best Custom Home Builders in Fort Collins, Loveland, Greeley,
@@ -123,7 +125,7 @@
               </i>
             </h2>
           </div>
-          <div class="col-sm-6">
+          <div class="col-lg-6">
             <p>
               We are a custom home builder and remodeler serving Colorado’s
               front range and Southern Wyoming. We understand how important it
@@ -138,28 +140,39 @@
       </div>
     </section>
     <section class="section-houses">
-      <div class="d-flex">
-        <div>
-          <img src="assets/img/home-houses-1.png" alt="" />
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <img
+              src="assets/img/home-houses-1.png"
+              class="houses-img-1"
+              alt=""
+            />
+          </div>
+          <div class="col-3 text-center">
+            <button class="houses-nav-btn me-3 bg-white faded">
+              <i class="fa fa fa-long-arrow-left fa-2x"></i>
+            </button>
+            <button class="houses-nav-btn bg-white">
+              <i class="fa fa fa-long-arrow-right fa-2x"></i>
+            </button>
+          </div>
         </div>
         <div>
-          <div class="houses-navigation"></div>
-          <div>
-            <img src="assets/img/home-houses-2.png" alt="" />
-          </div>
+          <img src="assets/img/home-houses-2.png" class="houses-img-2" alt="" />
         </div>
       </div>
     </section>
     <section class="section-gallery section-gallery-light py-10">
       <div class="container">
-        <div class="row gx-10 align-items-center mb-7">
-          <div class="col-sm-6">
+        <div class="row gy-7 gy-md-0 gx-lg-10 gx-5 align-items-center mb-7">
+          <div class="col-md-6">
             <img src="assets/img/gallery-1.png" alt="" />
           </div>
-          <div class="col-sm-6">
-            <div class="w-90">
-              <h2 class="h2 mb-8">Custom Home Design</h2>
-              <p class="mb-7">
+          <div class="col-md-6">
+            <div class="w-md-90">
+              <h2 class="h2 mb-4 mb-lg-8">Custom Home Design</h2>
+              <p class="mb-4 mb-lg-7">
                 If you haven’t yet hired an architect to design your home, you
                 might consider working with a company that offers both design
                 and build services to keep all the details of your project
@@ -186,9 +199,9 @@
     </section>
     <section class="section-process bg-secondary text-white">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-            <h2 class="h2 fut-medium text-uppercase mb-6">Process</h2>
+        <div class="row gy-5 gy-lg-0">
+          <div class="col-lg-3">
+            <h2 class="h2 fut-medium text-uppercase mb-4 mb-lg-6">Process</h2>
             <p>
               Our construction process has been created to ensure that we meet
               and exceed all of our customers' needs. We achieve this by
@@ -197,11 +210,27 @@
               satisfaction and well-being are our top priorities
             </p>
           </div>
-          <div class="col-sm-8 offset-sm-1">
+          <div class="col-lg-8 offset-lg-1">
             <!-- process 1  -->
-            <div class="d-flex process py-5">
+            <div class="d-sm-flex process py-4 py-md-5">
               <div class="process-title me-8">
-                <h3 class="h3 fut-medium">Phase One Discovery</h3>
+                <h3 class="h3 fut-medium mb-3">Phase One Discovery</h3>
+              </div>
+              <div class="process-desc">
+                <p>
+                  We begin by understanding your vision and objectives. Our team
+                  conducts a thorough project evaluation to assess your scope of
+                  work. You'll receive an initial estimate along with a final
+                  budget based on the project's final design, ensuring
+                  transparency and clarity from the start.
+                </p>
+              </div>
+            </div>
+
+            <!-- process 1  -->
+            <div class="d-sm-flex process py-4 py-md-5">
+              <div class="process-title me-8">
+                <h3 class="h3 fut-medium mb-3">Phase One Discovery</h3>
               </div>
               <div class="process-desc">
                 <p>
@@ -214,9 +243,9 @@
               </div>
             </div>
             <!-- process 1  -->
-            <div class="d-flex process py-5">
+            <div class="d-sm-flex process py-4 py-md-5">
               <div class="process-title me-8">
-                <h3 class="h3 fut-medium">Phase One Discovery</h3>
+                <h3 class="h3 fut-medium mb-3">Phase One Discovery</h3>
               </div>
               <div class="process-desc">
                 <p>
@@ -229,24 +258,9 @@
               </div>
             </div>
             <!-- process 1  -->
-            <div class="d-flex process py-5">
+            <div class="d-sm-flex process py-4 py-md-5">
               <div class="process-title me-8">
-                <h3 class="h3 fut-medium">Phase One Discovery</h3>
-              </div>
-              <div class="process-desc">
-                <p>
-                  We begin by understanding your vision and objectives. Our team
-                  conducts a thorough project evaluation to assess your scope of
-                  work. You'll receive an initial estimate along with a final
-                  budget based on the project's final design, ensuring
-                  transparency and clarity from the start.
-                </p>
-              </div>
-            </div>
-            <!-- process 1  -->
-            <div class="d-flex process py-5">
-              <div class="process-title me-8">
-                <h3 class="h3 fut-medium">Phase One Discovery</h3>
+                <h3 class="h3 fut-medium mb-3">Phase One Discovery</h3>
               </div>
               <div class="process-desc">
                 <p>
@@ -265,39 +279,42 @@
     <section class="section-contact">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6">
-            <h2 class="h2 fut-medium mb-8">Get Started</h2>
-            <p class="mb-8">
-              Have questions about our services or a project in mind? We're here
-              to help! Whether you're looking to bring your ideas to life or
-              need expert advice, our team is ready to assist you every step of
-              the way. Let's collaborate to turn your vision into reality.
-            </p>
-            <div class="mb-10">
-              <a
-                href="tel:970-419-0816"
-                class="d-block text-decoration-none gar-semi-bold"
-              >
-                <i class="fa fa-phone"></i>
-                970-419-0816
-              </a>
-              <a href="" class="d-block text-decoration-none gar-semi-bold">
-                <i class="fa fa-clock-o"></i>
-                Monday-Friday: 8AM-5PM
-              </a>
-              <a href="" class="d-block text-decoration-none gar-semi-bold">
-                <i class="fa fa-envelope"></i>
-                nathan@jacquesfamilyconstruction.com
-              </a>
+          <div class="col-md-4 col-lg-5 col-lg-6"></div>
+          <div class="col-md-8 col-lg-6">
+            <div class="w-75 mx-auto">
+              <h2 class="h2 fut-medium mb-8">Get Started</h2>
+              <p class="mb-8">
+                Have questions about our services or a project in mind? We're
+                here to help! Whether you're looking to bring your ideas to life
+                or need expert advice, our team is ready to assist you every
+                step of the way. Let's collaborate to turn your vision into
+                reality.
+              </p>
+              <div class="mb-10">
+                <a
+                  href="tel:970-419-0816"
+                  class="d-block text-decoration-none gar-semi-bold"
+                >
+                  <i class="fa fa-phone"></i>
+                  970-419-0816
+                </a>
+                <a href="" class="d-block text-decoration-none gar-semi-bold">
+                  <i class="fa fa-clock-o"></i>
+                  Monday-Friday: 8AM-5PM
+                </a>
+                <a href="" class="d-block text-decoration-none gar-semi-bold">
+                  <i class="fa fa-envelope"></i>
+                  nathan@jacquesfamilyconstruction.com
+                </a>
+              </div>
             </div>
-            <div class="contact-form p-8">
+            <div class="contact-form p-5 p-lg-8">
               <form action="">
                 <div class="mb-3">
                   <label for="name" class="form-label d-none">Name</label>
                   <input
                     type="text"
-                    class="form-control"
+                    class="form-control p-3"
                     id="name"
                     placeholder="Name"
                     aria-describedby="name"
@@ -310,7 +327,7 @@
                     >
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control p-3"
                       id="email"
                       placeholder="Email"
                       aria-describedby="emailHelp"
@@ -320,7 +337,7 @@
                     <label for="phone" class="form-label d-none">Phone</label>
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control p-3"
                       id="phone"
                       placeholder="Phone"
                       aria-describedby="emailHelp"
@@ -349,17 +366,17 @@
     <footer class="footer bg-secondary text-white py-10">
       <div class="container">
         <div class="row">
-          <div class="col-3">
-            <div>
+          <div class="col-sm-3">
+            <div class="footer-logo">
               <img src="assets/img/logo-white.png" alt="" />
             </div>
           </div>
-          <div class="col-8 offset-1">
+          <div class="col-sm-8 offset-sm-1">
             <h2 class="h2 gar-semi-bold mb-7">
               Residential Construction and Remodeling in Northern
             </h2>
-            <div class="row mb-7">
-              <div class="col-6">
+            <div class="row mb-7 gy-4 gy-lg-0">
+              <div class="col-lg-6">
                 <div class="">
                   <a
                     href="tel:970-419-0816"
@@ -384,7 +401,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-6">
+              <div class="col-lg-6">
                 <div>
                   <div>
                     <a
