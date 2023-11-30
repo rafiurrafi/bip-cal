@@ -64,3 +64,6 @@
     .section-contact .row {
       margin-top: 20rem;
       padding-right: 0rem; } }
+@media (max-width: 575.98px) {
+  .hero-left {
+    height: 120rem; } }

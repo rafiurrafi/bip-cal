@@ -16,8 +16,8 @@
     <title>Jacques Family</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <img
             src="assets/img/logo-white.png"
@@ -82,12 +82,10 @@
       <div class="hero-img"></div>
       <div class="container">
         <div class="row">
-          <div class="col-5"></div>
-          <div class="col-7">
-            <div class="hero-content text-white text-end">
+          <div class="col">
+            <div class="hero-content text-white text-end ms-auto">
               <h1 class="h1 mb-4 gar-semi-bold">
-                Northern Colorado Custom Homes <br />
-                Construction and Remodeling
+                Northern Colorado Custom Homes Construction and Remodeling
               </h1>
               <a href="#" class="gar-semi-bold d-block text-white"
                 >Get Started
@@ -102,7 +100,7 @@
         </div>
       </div>
     </section>
-    <section class="section-quote">
+    <section class="section-quote py-10 py-lg-12">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -129,9 +127,11 @@
     </section>
     <section class="section-gallery py-10">
       <div class="container">
-        <div class="row gx-5 align-items-center mb-7 bg-primary-400">
-          <div class="col-sm-6">
-            <div class="ps-5">
+        <div
+          class="row gx-lg-5 gy-5 gy-lg-0 align-items-center mb-7 bg-primary-400"
+        >
+          <div class="col-lg-6">
+            <div class="p-4 p-lg-0 ps-lg-5">
               <h2 class="h2 mb-5 fut-medium text-uppercase text-primary">
                 Custom Homes
               </h2>
@@ -154,51 +154,45 @@
               ></a>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-lg-6">
             <img src="assets/img/gallery-1.png" alt="" />
           </div>
+          <div class="gallery-number text-white fut-medium">01</div>
         </div>
       </div>
     </section>
-    <section class="section-about">
-      <div class="container-fluid">
-        <div class="row gx-5 overflow-hidden">
-          <div class="col-7">
-            <div>
-              <img
-                src="assets/img/mockup-about.jpg"
-                alt="spacious room with natural view"
-              />
-            </div>
-          </div>
-          <div class="col-5 align-self-center">
-            <div class="w-50">
-              <h2 class="h2 text-primary fut-medium mb-5">About</h2>
-              <p class="mb-5">
-                Jacques Family Construction is your trusted partner in making
-                your construction dreams a reality. Founded on the principles of
-                exceptional service, integrity, and clear communication, our
-                company is dedicated to delivering excellence in every project
-                we undertake. At Jacques Family Construction, our unwavering
-                commitment to serving others drives us to prioritize your needs
-                and preferences, ensuring a personalized and exceptional
-                experience.
-              </p>
-              <a
-                href="#"
-                class="btn bg-secondary px-5 py-2 text-uppercase text-white text-uppercase"
-                >Contact Us</a
-              >
-            </div>
-          </div>
+    <section class="section-about py-10">
+      <div class="d-lg-flex">
+        <div class="me-lg-10 about-img">
+          <img
+            src="assets/img/mockup-about.jpg"
+            alt="spacious room with natural view"
+          />
+        </div>
+        <div class="about-text align-self-center">
+          <h2 class="h2 text-primary fut-medium mb-5">About</h2>
+          <p class="mb-5">
+            Jacques Family Construction is your trusted partner in making your
+            construction dreams a reality. Founded on the principles of
+            exceptional service, integrity, and clear communication, our company
+            is dedicated to delivering excellence in every project we undertake.
+            At Jacques Family Construction, our unwavering commitment to serving
+            others drives us to prioritize your needs and preferences, ensuring
+            a personalized and exceptional experience.
+          </p>
+          <a
+            href="#"
+            class="btn bg-secondary px-5 py-2 text-uppercase text-white text-uppercase"
+            >Contact Us</a
+          >
         </div>
       </div>
     </section>
     <section class="section-process bg-secondary text-white">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-            <h2 class="h2 fut-medium text-uppercase mb-6">Process</h2>
+        <div class="row gy-5 gy-lg-0">
+          <div class="col-lg-3">
+            <h2 class="h2 fut-medium text-uppercase mb-4 mb-lg-6">Process</h2>
             <p>
               Our construction process has been created to ensure that we meet
               and exceed all of our customers' needs. We achieve this by
@@ -207,11 +201,27 @@
               satisfaction and well-being are our top priorities
             </p>
           </div>
-          <div class="col-sm-8 offset-sm-1">
+          <div class="col-lg-8 offset-lg-1">
             <!-- process 1  -->
-            <div class="d-flex process py-5">
+            <div class="d-sm-flex process py-4 py-md-5">
               <div class="process-title me-8">
-                <h3 class="h3 fut-medium">Phase One Discovery</h3>
+                <h3 class="h3 fut-medium mb-3">Phase One Discovery</h3>
+              </div>
+              <div class="process-desc">
+                <p>
+                  We begin by understanding your vision and objectives. Our team
+                  conducts a thorough project evaluation to assess your scope of
+                  work. You'll receive an initial estimate along with a final
+                  budget based on the project's final design, ensuring
+                  transparency and clarity from the start.
+                </p>
+              </div>
+            </div>
+
+            <!-- process 1  -->
+            <div class="d-sm-flex process py-4 py-md-5">
+              <div class="process-title me-8">
+                <h3 class="h3 fut-medium mb-3">Phase One Discovery</h3>
               </div>
               <div class="process-desc">
                 <p>
@@ -224,9 +234,9 @@
               </div>
             </div>
             <!-- process 1  -->
-            <div class="d-flex process py-5">
+            <div class="d-sm-flex process py-4 py-md-5">
               <div class="process-title me-8">
-                <h3 class="h3 fut-medium">Phase One Discovery</h3>
+                <h3 class="h3 fut-medium mb-3">Phase One Discovery</h3>
               </div>
               <div class="process-desc">
                 <p>
@@ -239,24 +249,9 @@
               </div>
             </div>
             <!-- process 1  -->
-            <div class="d-flex process py-5">
+            <div class="d-sm-flex process py-4 py-md-5">
               <div class="process-title me-8">
-                <h3 class="h3 fut-medium">Phase One Discovery</h3>
-              </div>
-              <div class="process-desc">
-                <p>
-                  We begin by understanding your vision and objectives. Our team
-                  conducts a thorough project evaluation to assess your scope of
-                  work. You'll receive an initial estimate along with a final
-                  budget based on the project's final design, ensuring
-                  transparency and clarity from the start.
-                </p>
-              </div>
-            </div>
-            <!-- process 1  -->
-            <div class="d-flex process py-5">
-              <div class="process-title me-8">
-                <h3 class="h3 fut-medium">Phase One Discovery</h3>
+                <h3 class="h3 fut-medium mb-3">Phase One Discovery</h3>
               </div>
               <div class="process-desc">
                 <p>
@@ -274,10 +269,12 @@
     </section>
     <section class="section-testimonial">
       <div class="container">
-        <div class="row gx-5 align-items-stretch">
+        <div class="row gx-5 gy-5 align-items-stretch">
           <!-- first col  -->
-          <div class="col-4">
-            <div class="testimonial bg-primary-400 py-10 px-8 rounded-7 h-100">
+          <div class="col-sm-6 col-xl-4">
+            <div
+              class="testimonial bg-primary-400 py-xl-10 px-xl-8 py-7 px-6 rounded-7 h-100"
+            >
               <div>
                 <span class="text-primary me-1"
                   ><i class="fa fa-star"></i
@@ -308,8 +305,10 @@
           </div>
           <!-- end of col  -->
           <!-- first col  -->
-          <div class="col-4">
-            <div class="testimonial bg-primary-400 py-10 px-8 rounded-7 h-100">
+          <div class="col-sm-6 col-xl-4">
+            <div
+              class="testimonial bg-primary-400 py-xl-10 px-xl-8 py-7 px-6 rounded-7 h-100"
+            >
               <div>
                 <span class="text-primary me-1"
                   ><i class="fa fa-star"></i
@@ -338,8 +337,10 @@
           </div>
           <!-- end of col  -->
           <!-- first col  -->
-          <div class="col-4">
-            <div class="testimonial bg-primary-400 py-10 px-8 rounded-7 h-100">
+          <div class="col-sm-6 col-xl-4">
+            <div
+              class="testimonial bg-primary-400 py-xl-10 px-xl-8 py-7 px-6 rounded-7 h-100"
+            >
               <div>
                 <span class="text-primary me-1"
                   ><i class="fa fa-star"></i
@@ -383,8 +384,8 @@
     </section>
     <section class="section-contact">
       <div class="container">
-        <div class="row">
-          <div class="col-5">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
             <h2 class="h2 text-primary fut-medium mb-5">Get Started</h2>
             <p>
               Have questions about our services or a project in mind? We're here
@@ -410,14 +411,14 @@
               </a>
             </div>
           </div>
-          <div class="col-6 offset-1">
-            <div class="contact-form p-8">
+          <div class="col-lg-6 offset-lg-1">
+            <div class="contact-form p-5 p-lg-8">
               <form action="">
                 <div class="mb-3">
                   <label for="name" class="form-label d-none">Name</label>
                   <input
                     type="text"
-                    class="form-control"
+                    class="form-control p-3"
                     id="name"
                     placeholder="Name"
                     aria-describedby="name"
@@ -430,7 +431,7 @@
                     >
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control p-3"
                       id="email"
                       placeholder="Email"
                       aria-describedby="emailHelp"
@@ -440,7 +441,7 @@
                     <label for="phone" class="form-label d-none">Phone</label>
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control p-3"
                       id="phone"
                       placeholder="Phone"
                       aria-describedby="emailHelp"
@@ -469,17 +470,17 @@
     <footer class="footer bg-secondary text-white py-10">
       <div class="container">
         <div class="row">
-          <div class="col-3">
-            <div>
+          <div class="col-sm-3">
+            <div class="footer-logo">
               <img src="assets/img/logo-white.png" alt="" />
             </div>
           </div>
-          <div class="col-8 offset-1">
+          <div class="col-sm-8 offset-sm-1">
             <h2 class="h2 gar-semi-bold mb-7">
               Residential Construction and Remodeling in Northern
             </h2>
-            <div class="row mb-7">
-              <div class="col-6">
+            <div class="row mb-7 gy-4 gy-lg-0">
+              <div class="col-lg-6">
                 <div class="">
                   <a
                     href="tel:970-419-0816"
@@ -504,7 +505,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-6">
+              <div class="col-lg-6">
                 <div>
                   <div>
                     <a
@@ -554,5 +555,12 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      const navbar = document.querySelector(".navbar");
+      const navbarToggler = document.querySelector(".navbar-toggler");
+      navbarToggler.addEventListener("click", function () {
+        // navbar.classList.toggle("bg-light");
+      });
+    </script>
   </body>
 </html>
