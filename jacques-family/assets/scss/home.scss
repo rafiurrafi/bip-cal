@@ -10,27 +10,35 @@
 }
 .section-houses {
   position: relative;
-  .houses-img-1 {
+  .houses {
+    margin-left: 10%;
+  }
+  .houses-big {
     height: 87rem;
   }
   .houses-nav-btn {
-    height: 12rem;
-    width: 12rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
     border: 3px solid #a4a7a6;
     color: #a4a7a6;
-    transform: translate(40%, 30%);
+    // transform: translate(40%, 30%);
     &.faded {
       opacity: 0.5;
     }
   }
-  .houses-img-2 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 40rem;
-    height: 62rem;
+  .house-nav {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
+  // .houses-img-2 {
+  //   position: absolute;
+  //   bottom: 0;
+  //   right: 0;
+  //   width: 40rem;
+  //   height: 62rem;
+  // }
 }
 .section-contact {
   background-image: url(../img/contact-bg.png);
@@ -55,6 +63,17 @@
       margin-top: 10rem;
     }
   }
+  .section-houses {
+    .houses-big {
+      height: 75rem;
+    }
+    .houses-nav-btn {
+      height: 9rem;
+      width: 9rem;
+    }
+    .house-nav {
+    }
+  }
 }
 @media (max-width: 991.98px) {
   .section-hero {
@@ -73,6 +92,11 @@
       padding-right: 5rem;
     }
   }
+  .section-houses {
+    .houses {
+      margin-right: 10%;
+    }
+  }
 }
 @media (max-width: 767.98px) {
   .section-contact {
@@ -86,5 +110,14 @@
 @media (max-width: 575.98px) {
   .hero-left {
     height: 120rem;
+  }
+  .section-houses {
+    .houses-big {
+      height: 80rem;
+    }
+    .houses-nav-btn {
+      height: 7rem;
+      width: 7rem;
+    }
   }
 }
