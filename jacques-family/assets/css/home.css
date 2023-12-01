@@ -28,14 +28,23 @@
     align-items: center; }
 
 .section-contact {
-  background-image: url(../img/contact-bg.png);
   background-size: cover;
   background-position: -100px 0;
   background-repeat: no-repeat;
-  height: 130rem; }
+  height: 130rem;
+  position: relative; }
+  .section-contact .contact-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
   .section-contact .row {
     margin-top: 20rem;
     padding-right: 10rem; }
+  .section-contact .contact-text {
+    max-width: 45rem; }
 
 @media (max-width: 1199.98px) {
   .section-contact {
@@ -81,3 +90,13 @@
   .section-houses .houses-nav-btn {
     height: 7rem;
     width: 7rem; } }
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl,
+.container-3xl {
+  padding-right: var(--bs-gutter-x, 1.25rem) !important;
+  padding-left: var(--bs-gutter-x, 1.25rem) !important; }

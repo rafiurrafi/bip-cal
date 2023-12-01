@@ -12123,6 +12123,9 @@ textarea.form-control-lg {
 @font-face {
   font-family: garamondSemiBoldItalic;
   src: url("../../../fonts/a/AGaramond-SemiboldItalic.otf"); }
+@font-face {
+  font-family: garamondSemiBold;
+  src: url("../../../fonts/a/AGaramond-Semibold.otf"); }
 html {
   font-size: 62.5% !important; }
 
@@ -12159,6 +12162,9 @@ img {
 .gar-semi-bold {
   font-family: garamondSemiBoldItalic !important; }
 
+.gar-semi-normal {
+  font-family: garamondSemiBold !important; }
+
 .fut-medium {
   font-family: futura !important; }
 
@@ -12185,6 +12191,8 @@ a i.fa {
     grid-gap: 1.5rem; }
   .contact-form a {
     width: 20rem; }
+  .contact-form .contact-form {
+    max-width: 80rem; }
 
 .section-gallery-light {
   background-color: #f6f1ee; }
@@ -12202,6 +12210,8 @@ a i.fa {
 
 .footer-arrow {
   transform: translateY(2px); }
+.footer .footer-menu a {
+  justify-content: end; }
 
 @media (max-width: 1799.98px) {
   html {
@@ -12221,6 +12231,9 @@ a i.fa {
 
   .h3 {
     font-size: 2.5rem !important; } }
+@media (max-width: 991.98px) {
+  .footer .footer-menu a {
+    justify-content: start; } }
 @media (max-width: 767.98px) {
   .contact-form-group {
     display: block; } }
