@@ -1,6 +1,6 @@
 $primary: #a2826b;
 $secondary: #16423c;
-$custom-body-font-size: 2rem;
+$custom-body-font-size: 1.25rem;
 @import "./functions";
 @import "./variables";
 
@@ -13,9 +13,9 @@ $grid-breakpoints: map-merge(
 );
 @import "./bootstrap.scss";
 @import "./custom/font";
-html {
-  font-size: 62.5% !important;
-}
+// html {
+//   font-size: 62.5% !important;
+// }
 body {
   font-size: $custom-body-font-size !important;
   font-family: garamond !important;
@@ -24,14 +24,23 @@ body {
 p {
   font-size: $custom-body-font-size !important;
 }
+.h1 {
+  font-size: 3.125rem !important;
+}
+.h2 {
+  font-size: 2.5rem !important;
+}
+.h3 {
+  font-size: 1.5rem !important;
+}
 .bg-primary-400 {
   background-color: #f8f5f2;
 }
 .rounded-7 {
-  border-radius: 1.5rem;
+  border-radius: 1rem;
 }
 .navbar-logo {
-  max-width: 17rem;
+  max-width: 10.6rem;
 }
 .nav-link,
 .btn {
@@ -45,7 +54,7 @@ img {
   object-fit: cover;
 }
 .btn {
-  font-size: 2rem !important;
+  font-size: 1.2rem !important;
 }
 .gar-semi-bold {
   font-family: garamondSemiBoldItalic !important;
@@ -63,13 +72,13 @@ h2 {
   font-family: futura;
 }
 a i.fa {
-  transform: translateY(0.5rem);
+  transform: translateY(0.4rem);
 }
 .btn {
   border-radius: 0 !important;
 }
 .contact-form {
-  border-radius: 2rem;
+  border-radius: 1.2rem;
   background-color: #f8f5f2;
   .form-control {
     font-size: $custom-body-font-size !important;
@@ -77,13 +86,13 @@ a i.fa {
   &-group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
   }
   a {
-    width: 20rem;
+    width: 12rem;
   }
   .contact-form {
-    max-width: 80rem;
+    max-width: 50rem;
   }
 }
 // particular page design home
@@ -93,16 +102,16 @@ a i.fa {
     background-color: #f6f1ee;
   }
   img {
-    height: 60rem;
+    height: 37rem;
   }
 }
 .section-process {
-  padding: 12rem 0;
+  padding: 7.5rem 0;
   .process {
     border-top: 2px solid #f1f4f4;
   }
   .process-title {
-    flex: 0 0 15rem;
+    flex: 0 0 9.5rem;
   }
   .process-desc {
     flex: 1;
@@ -118,27 +127,39 @@ a i.fa {
   }
 }
 @media (max-width: 1799.98px) {
-  html {
-    font-size: 55.8% !important;
+  body,
+  .btn,
+  p {
+    font-size: 1rem !important;
+  }
+  .navbar-logo {
+    max-width: 10rem;
   }
 }
 @media (max-width: 1399.98px) {
-  html {
-    font-size: 52% !important;
+  // body,
+  // .btn {
+  //   font-size: 0.9rem !important;
+  // }
+  .h1 {
+    font-size: 2.7rem !important;
+  }
+  .navbar-logo {
+    max-width: 8rem;
   }
 }
 @media (max-width: 1199.98px) {
   html {
-    font-size: 52% !important;
+    // font-size: 52% !important;
   }
   .h1 {
-    font-size: 4.5rem !important;
+    font-size: 2.3rem !important;
   }
   .h2 {
-    font-size: 3.5rem !important;
+    font-size: 2rem !important;
   }
   .h3 {
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
   }
   // body,
   // p,
@@ -170,6 +191,11 @@ a i.fa {
 @media (max-width: 575.98px) {
   .footer-logo {
     width: 50%;
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
+  }
+  .section-gallery {
+    img {
+      height: 25rem;
+    }
   }
 }

@@ -256,14 +256,14 @@ $spacers: (
   0: 0,
   1: $spacer * 0.4,
   2: $spacer * 0.8,
-  3: $spacer * 1.6,
-  4: $spacer * 2.4,
-  5: $spacer * 4.8,
-  6: $spacer * 6,
-  7: $spacer * 5,
-  8: $spacer * 7,
-  10: $spacer * 10,
-  12: $spacer * 12,
+  3: $spacer * 1,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 3.75,
+  7: $spacer * 3.125,
+  8: $spacer * 4.375,
+  10: $spacer * 6.25,
+  12: $spacer * 7.5,
 ) !default;
 
 $negative-spacers: if(
@@ -454,9 +454,9 @@ $line-height-base: 1.5 !default;
 $line-height-sm: 1.25 !default;
 $line-height-lg: 2 !default;
 
-$h1-font-size: $font-size-base * 5 !default;
-$h2-font-size: $font-size-base * 4 !default;
-$h3-font-size: $font-size-base * 2.5 !default;
+$h1-font-size: $font-size-base * 3.125 !default;
+$h2-font-size: $font-size-base * 2.5 !default;
+$h3-font-size: $font-size-base * 1.56 !default;
 $h4-font-size: $font-size-base * 1.5 !default;
 $h5-font-size: $font-size-base * 1.25 !default;
 $h6-font-size: $font-size-base !default;

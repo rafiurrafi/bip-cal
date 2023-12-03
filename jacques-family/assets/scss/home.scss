@@ -1,6 +1,6 @@
 .section-hero,
 .hero-right {
-  height: 110rem;
+  height: 68rem;
 }
 
 .hero-left {
@@ -46,7 +46,7 @@
   background-size: cover;
   background-position: -100px 0;
   background-repeat: no-repeat;
-  height: 130rem;
+  height: 81rem;
   position: relative;
   .contact-bg {
     position: absolute;
@@ -68,10 +68,14 @@
 @media (max-width: 1799.98px) {
 }
 @media (max-width: 1399.98px) {
+  .section-hero,
+  .hero-right {
+    height: 60rem;
+  }
 }
 @media (max-width: 1199.98px) {
   .section-contact {
-    height: 150rem;
+    height: 70rem;
     .row {
       margin-top: 10rem;
     }
@@ -81,8 +85,8 @@
       height: 75rem;
     }
     .houses-nav-btn {
-      height: 9rem;
-      width: 9rem;
+      height: 5.6rem;
+      width: 5.6rem;
     }
     .house-nav {
     }
@@ -93,16 +97,16 @@
     height: auto;
   }
   .hero-left {
-    height: 85rem;
+    height: 53rem;
   }
   .hero-right {
-    height: 70rem;
+    height: 43rem;
   }
   .section-contact {
     background-position: -200px 0;
     .row {
-      margin-top: 20rem;
-      padding-right: 5rem;
+      margin-top: 12rem;
+      padding-right: 3rem;
     }
   }
   .section-houses {
@@ -113,35 +117,27 @@
 }
 @media (max-width: 767.98px) {
   .section-contact {
-    height: 130rem;
+    height: 80rem;
     .row {
-      margin-top: 20rem;
+      margin-top: 10rem;
       padding-right: 0rem;
     }
   }
 }
 @media (max-width: 575.98px) {
   .hero-left {
-    height: 120rem;
+    height: 55rem;
+    .hero-left-content.w-75 {
+      width: 90% !important;
+    }
   }
   .section-houses {
     .houses-big {
-      height: 80rem;
+      height: 30rem;
     }
     .houses-nav-btn {
-      height: 7rem;
-      width: 7rem;
+      height: 4.2rem;
+      width: 4.2rem;
     }
   }
-}
-.container,
-.container-fluid,
-.container-sm,
-.container-md,
-.container-lg,
-.container-xl,
-.container-xxl,
-.container-3xl {
-  padding-right: var(--bs-gutter-x, 1.25rem) !important;
-  padding-left: var(--bs-gutter-x, 1.25rem) !important;
 }

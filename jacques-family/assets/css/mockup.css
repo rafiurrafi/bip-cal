@@ -15,70 +15,78 @@
   background-size: cover;
   background-position: center; }
   .section-hero .hero-content {
-    margin-top: 25rem;
-    max-width: 90rem;
+    margin-top: 15rem;
+    max-width: 56rem;
     transition: margin-top 0.5s; }
     .section-hero .hero-content.active {
-      margin-top: 45rem; }
+      margin-top: 28rem; }
   .section-hero a {
-    font-size: 3rem; }
+    font-size: 1.8rem; }
 
 .section-gallery .row {
-  border-radius: 2rem;
+  border-radius: 1.2rem;
   overflow: hidden;
   position: relative; }
   .section-gallery .row img {
-    transform: translateX(2.5rem); }
+    transform: translateX(1.5rem); }
+  .section-gallery .row .gallery-text h2,
+  .section-gallery .row .gallery-text p,
+  .section-gallery .row .gallery-text a {
+    position: relative;
+    z-index: 2; }
   .section-gallery .row .gallery-number {
     position: absolute;
-    bottom: -10rem;
+    bottom: -6rem;
     left: 0;
-    font-size: 25rem;
+    font-size: 15rem;
     opacity: 0.7; }
 
 .section-about {
-  padding: 15rem 0; }
+  padding: 9rem 0; }
   .section-about .about-img {
-    height: 80rem;
+    height: 50rem;
     flex: 0 0 60%; }
   .section-about .about-text {
-    flex: 0 0 33rem; }
+    flex: 0 0 20rem; }
+
+.section-process .process-title {
+  flex: 0 0 10rem; }
 
 .section-precise .precise-img img {
   width: 80%;
-  border-radius: 2rem; }
+  border-radius: 1.2rem; }
 .section-precise .precise-text {
   width: 75%; }
 
 .section-testimonial {
-  padding: 15rem 0; }
+  padding: 9rem 0; }
   .section-testimonial .testimonial {
-    min-height: 44rem !important; }
+    min-height: 27rem !important; }
 
 .section-contact {
-  padding: 15rem 0; }
+  padding: 9rem 0; }
 
 @media (max-width: 1199.98px) {
   .section-hero .hero-content {
-    max-width: 61rem; }
+    max-width: 38rem; }
 
   .section-about .w-50 {
     width: 75% !important; } }
 @media (max-width: 991.98px) {
   .section-about .about-img {
-    margin-bottom: 7rem; }
+    margin-bottom: 4.3rem; }
 
   .section-gallery .row img {
-    height: 40rem;
+    height: 27rem;
     transform: translate(0, -30px) scale(1.1); } }
 @media (max-width: 767.98px) {
   .section-precise .precise-img img {
     width: 100%;
-    height: 40rem; }
+    height: 25rem; }
   .section-precise .precise-text {
     width: 100%; }
   .section-precise .h1 {
-    font-size: 4rem !important; } }
+    font-size: 2.5rem !important; } }
 @media (max-width: 575.98px) {
   .section-hero .h1 {
-    font-size: 4rem !important; } }
+    font-size: 2.5rem !important; } }
